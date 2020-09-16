@@ -1,0 +1,1348 @@
+2020-09-16 00:01:19.038  INFO 13520 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2020-09-16 00:06:19.852  INFO 13520 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2020-09-16 00:11:19.883  INFO 13520 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2020-09-16 09:58:51.682  INFO 6892 --- [restartedMain] com.DeptEmpUI.DeptEmpUiApplication       : No active profile set, falling back to default profiles: default
+2020-09-16 09:58:55.615  INFO 6892 --- [restartedMain] o.s.cloud.context.scope.GenericScope     : BeanFactory id=25097969-6b07-3c7f-b53e-a21c5a3d322c
+2020-09-16 09:58:55.869  INFO 6892 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$178fa7fc] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-09-16 09:58:59.824  INFO 6892 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8085 (http)
+2020-09-16 09:58:59.959  INFO 6892 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-09-16 09:58:59.960  INFO 6892 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.37]
+2020-09-16 09:59:10.393  INFO 6892 --- [restartedMain] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2020-09-16 09:59:10.415  INFO 6892 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-09-16 09:59:10.418  INFO 6892 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 18667 ms
+2020-09-16 09:59:15.002  WARN 6892 --- [restartedMain] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2020-09-16 09:59:15.012  INFO 6892 --- [restartedMain] c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-09-16 09:59:15.032  WARN 6892 --- [restartedMain] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2020-09-16 09:59:15.035  INFO 6892 --- [restartedMain] c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-09-16 09:59:16.162  INFO 6892 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-09-16 09:59:17.566  WARN 6892 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : Unable to start LiveReload server
+2020-09-16 09:59:20.844  INFO 6892 --- [restartedMain] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2020-09-16 09:59:24.501  INFO 6892 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+2020-09-16 09:59:24.844  INFO 6892 --- [restartedMain] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON encoding codec LegacyJacksonJson
+2020-09-16 09:59:24.845  INFO 6892 --- [restartedMain] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON decoding codec LegacyJacksonJson
+2020-09-16 09:59:26.273  INFO 6892 --- [restartedMain] c.n.d.provider.DiscoveryJerseyProvider   : Using XML encoding codec XStreamXml
+2020-09-16 09:59:26.275  INFO 6892 --- [restartedMain] c.n.d.provider.DiscoveryJerseyProvider   : Using XML decoding codec XStreamXml
+2020-09-16 09:59:27.265  INFO 6892 --- [restartedMain] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2020-09-16 09:59:27.889  INFO 6892 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2020-09-16 09:59:27.889  INFO 6892 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2020-09-16 09:59:27.890  INFO 6892 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2020-09-16 09:59:27.890  INFO 6892 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Application is null : false
+2020-09-16 09:59:27.891  INFO 6892 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2020-09-16 09:59:27.891  INFO 6892 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Application version is -1: true
+2020-09-16 09:59:27.892  INFO 6892 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2020-09-16 09:59:28.793  INFO 6892 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : The response status is 200
+2020-09-16 09:59:28.814  INFO 6892 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Starting heartbeat executor: renew interval is: 30
+2020-09-16 09:59:28.820  INFO 6892 --- [restartedMain] c.n.discovery.InstanceInfoReplicator     : InstanceInfoReplicator onDemand update allowed rate per min is 4
+2020-09-16 09:59:28.908  INFO 6892 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1600230568828 with initial instances count: 4
+2020-09-16 09:59:28.935  INFO 6892 --- [restartedMain] o.s.c.n.e.s.EurekaServiceRegistry        : Registering application UI-SERVICE with eureka with status UP
+2020-09-16 09:59:28.938  INFO 6892 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1600230568938, current=UP, previous=STARTING]
+2020-09-16 09:59:28.955  INFO 6892 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_UI-SERVICE/DELL-PC:UI-service:8085: registering service...
+2020-09-16 09:59:29.138  INFO 6892 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_UI-SERVICE/DELL-PC:UI-service:8085 - registration status: 204
+2020-09-16 09:59:29.573  INFO 6892 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8085 (http) with context path ''
+2020-09-16 09:59:29.575  INFO 6892 --- [restartedMain] .s.c.n.e.s.EurekaAutoServiceRegistration : Updating port to 8085
+2020-09-16 09:59:29.617  INFO 6892 --- [restartedMain] com.DeptEmpUI.DeptEmpUiApplication       : Started DeptEmpUiApplication in 42.554 seconds (JVM running for 46.408)
+2020-09-16 09:59:54.189  INFO 6892 --- [http-nio-8085-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-09-16 09:59:54.190  INFO 6892 --- [http-nio-8085-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-09-16 09:59:54.218  INFO 6892 --- [http-nio-8085-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 27 ms
+2020-09-16 09:59:54.665 ERROR 6892 --- [http-nio-8085-exec-1] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is com.splunk.HttpException: HTTP 400 -- supplied index 'deptemp' missing] with root cause
+
+com.splunk.HttpException: HTTP 400 -- supplied index 'deptemp' missing
+	at com.splunk.HttpException.create(HttpException.java:84) ~[splunk-1.6.0.0.jar:1.6.0]
+	at com.splunk.HttpService.send(HttpService.java:452) ~[splunk-1.6.0.0.jar:1.6.0]
+	at com.splunk.Service.send(Service.java:1293) ~[splunk-1.6.0.0.jar:1.6.0]
+	at com.splunk.Receiver.submit(Receiver.java:169) ~[splunk-1.6.0.0.jar:1.6.0]
+	at com.splunk.Receiver.submit(Receiver.java:136) ~[splunk-1.6.0.0.jar:1.6.0]
+	at com.splunk.Receiver.log(Receiver.java:196) ~[splunk-1.6.0.0.jar:1.6.0]
+	at com.AOPLogging.aspects.AOPLogging.aroundAdvice(AOPLogging.java:83) ~[classes/:na]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_251]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source) ~[na:1.8.0_251]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source) ~[na:1.8.0_251]
+	at java.lang.reflect.Method.invoke(Unknown Source) ~[na:1.8.0_251]
+	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethodWithGivenArgs(AbstractAspectJAdvice.java:644) ~[spring-aop-5.2.8.RELEASE.jar:5.2.8.RELEASE]
+	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethod(AbstractAspectJAdvice.java:633) ~[spring-aop-5.2.8.RELEASE.jar:5.2.8.RELEASE]
+	at org.springframework.aop.aspectj.AspectJAroundAdvice.invoke(AspectJAroundAdvice.java:70) ~[spring-aop-5.2.8.RELEASE.jar:5.2.8.RELEASE]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186) ~[spring-aop-5.2.8.RELEASE.jar:5.2.8.RELEASE]
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:749) ~[spring-aop-5.2.8.RELEASE.jar:5.2.8.RELEASE]
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:95) ~[spring-aop-5.2.8.RELEASE.jar:5.2.8.RELEASE]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186) ~[spring-aop-5.2.8.RELEASE.jar:5.2.8.RELEASE]
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:749) ~[spring-aop-5.2.8.RELEASE.jar:5.2.8.RELEASE]
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:691) ~[spring-aop-5.2.8.RELEASE.jar:5.2.8.RELEASE]
+	at com.DeptEmpUI.controller.DeptController$$EnhancerBySpringCGLIB$$5241e663.loginPage(<generated>) ~[classes/:na]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_251]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source) ~[na:1.8.0_251]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source) ~[na:1.8.0_251]
+	at java.lang.reflect.Method.invoke(Unknown Source) ~[na:1.8.0_251]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:190) ~[spring-web-5.2.8.RELEASE.jar:5.2.8.RELEASE]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138) ~[spring-web-5.2.8.RELEASE.jar:5.2.8.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:105) ~[spring-webmvc-5.2.8.RELEASE.jar:5.2.8.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:878) ~[spring-webmvc-5.2.8.RELEASE.jar:5.2.8.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:792) ~[spring-webmvc-5.2.8.RELEASE.jar:5.2.8.RELEASE]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) ~[spring-webmvc-5.2.8.RELEASE.jar:5.2.8.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1040) ~[spring-webmvc-5.2.8.RELEASE.jar:5.2.8.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943) ~[spring-webmvc-5.2.8.RELEASE.jar:5.2.8.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006) ~[spring-webmvc-5.2.8.RELEASE.jar:5.2.8.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898) ~[spring-webmvc-5.2.8.RELEASE.jar:5.2.8.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:626) ~[tomcat-embed-core-9.0.37.jar:4.0.FR]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883) ~[spring-webmvc-5.2.8.RELEASE.jar:5.2.8.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:733) ~[tomcat-embed-core-9.0.37.jar:4.0.FR]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231) ~[tomcat-embed-core-9.0.37.jar:9.0.37]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.37.jar:9.0.37]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53) ~[tomcat-embed-websocket-9.0.37.jar:9.0.37]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.37.jar:9.0.37]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.37.jar:9.0.37]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-5.2.8.RELEASE.jar:5.2.8.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.2.8.RELEASE.jar:5.2.8.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.37.jar:9.0.37]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.37.jar:9.0.37]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-5.2.8.RELEASE.jar:5.2.8.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.2.8.RELEASE.jar:5.2.8.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.37.jar:9.0.37]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.37.jar:9.0.37]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-5.2.8.RELEASE.jar:5.2.8.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.2.8.RELEASE.jar:5.2.8.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.37.jar:9.0.37]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.37.jar:9.0.37]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202) ~[tomcat-embed-core-9.0.37.jar:9.0.37]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96) [tomcat-embed-core-9.0.37.jar:9.0.37]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541) [tomcat-embed-core-9.0.37.jar:9.0.37]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139) [tomcat-embed-core-9.0.37.jar:9.0.37]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92) [tomcat-embed-core-9.0.37.jar:9.0.37]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) [tomcat-embed-core-9.0.37.jar:9.0.37]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343) [tomcat-embed-core-9.0.37.jar:9.0.37]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:373) [tomcat-embed-core-9.0.37.jar:9.0.37]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65) [tomcat-embed-core-9.0.37.jar:9.0.37]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868) [tomcat-embed-core-9.0.37.jar:9.0.37]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1589) [tomcat-embed-core-9.0.37.jar:9.0.37]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) [tomcat-embed-core-9.0.37.jar:9.0.37]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) [na:1.8.0_251]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) [na:1.8.0_251]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) [tomcat-embed-core-9.0.37.jar:9.0.37]
+	at java.lang.Thread.run(Unknown Source) [na:1.8.0_251]
+
+2020-09-16 10:00:07.190 ERROR 6892 --- [http-nio-8085-exec-6] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is com.splunk.HttpException: HTTP 400 -- supplied index 'deptemp' missing] with root cause
+
+com.splunk.HttpException: HTTP 400 -- supplied index 'deptemp' missing
+	at com.splunk.HttpException.create(HttpException.java:84) ~[splunk-1.6.0.0.jar:1.6.0]
+	at com.splunk.HttpService.send(HttpService.java:452) ~[splunk-1.6.0.0.jar:1.6.0]
+	at com.splunk.Service.send(Service.java:1293) ~[splunk-1.6.0.0.jar:1.6.0]
+	at com.splunk.Receiver.submit(Receiver.java:169) ~[splunk-1.6.0.0.jar:1.6.0]
+	at com.splunk.Receiver.submit(Receiver.java:136) ~[splunk-1.6.0.0.jar:1.6.0]
+	at com.splunk.Receiver.log(Receiver.java:196) ~[splunk-1.6.0.0.jar:1.6.0]
+	at com.AOPLogging.aspects.AOPLogging.aroundAdvice(AOPLogging.java:83) ~[classes/:na]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_251]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source) ~[na:1.8.0_251]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source) ~[na:1.8.0_251]
+	at java.lang.reflect.Method.invoke(Unknown Source) ~[na:1.8.0_251]
+	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethodWithGivenArgs(AbstractAspectJAdvice.java:644) ~[spring-aop-5.2.8.RELEASE.jar:5.2.8.RELEASE]
+	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethod(AbstractAspectJAdvice.java:633) ~[spring-aop-5.2.8.RELEASE.jar:5.2.8.RELEASE]
+	at org.springframework.aop.aspectj.AspectJAroundAdvice.invoke(AspectJAroundAdvice.java:70) ~[spring-aop-5.2.8.RELEASE.jar:5.2.8.RELEASE]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186) ~[spring-aop-5.2.8.RELEASE.jar:5.2.8.RELEASE]
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:749) ~[spring-aop-5.2.8.RELEASE.jar:5.2.8.RELEASE]
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:95) ~[spring-aop-5.2.8.RELEASE.jar:5.2.8.RELEASE]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186) ~[spring-aop-5.2.8.RELEASE.jar:5.2.8.RELEASE]
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:749) ~[spring-aop-5.2.8.RELEASE.jar:5.2.8.RELEASE]
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:691) ~[spring-aop-5.2.8.RELEASE.jar:5.2.8.RELEASE]
+	at com.DeptEmpUI.controller.DeptController$$EnhancerBySpringCGLIB$$5241e663.loginPage(<generated>) ~[classes/:na]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_251]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source) ~[na:1.8.0_251]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source) ~[na:1.8.0_251]
+	at java.lang.reflect.Method.invoke(Unknown Source) ~[na:1.8.0_251]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:190) ~[spring-web-5.2.8.RELEASE.jar:5.2.8.RELEASE]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138) ~[spring-web-5.2.8.RELEASE.jar:5.2.8.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:105) ~[spring-webmvc-5.2.8.RELEASE.jar:5.2.8.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:878) ~[spring-webmvc-5.2.8.RELEASE.jar:5.2.8.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:792) ~[spring-webmvc-5.2.8.RELEASE.jar:5.2.8.RELEASE]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) ~[spring-webmvc-5.2.8.RELEASE.jar:5.2.8.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1040) ~[spring-webmvc-5.2.8.RELEASE.jar:5.2.8.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943) ~[spring-webmvc-5.2.8.RELEASE.jar:5.2.8.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006) ~[spring-webmvc-5.2.8.RELEASE.jar:5.2.8.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898) ~[spring-webmvc-5.2.8.RELEASE.jar:5.2.8.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:626) ~[tomcat-embed-core-9.0.37.jar:4.0.FR]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883) ~[spring-webmvc-5.2.8.RELEASE.jar:5.2.8.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:733) ~[tomcat-embed-core-9.0.37.jar:4.0.FR]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231) ~[tomcat-embed-core-9.0.37.jar:9.0.37]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.37.jar:9.0.37]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53) ~[tomcat-embed-websocket-9.0.37.jar:9.0.37]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.37.jar:9.0.37]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.37.jar:9.0.37]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-5.2.8.RELEASE.jar:5.2.8.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.2.8.RELEASE.jar:5.2.8.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.37.jar:9.0.37]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.37.jar:9.0.37]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-5.2.8.RELEASE.jar:5.2.8.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.2.8.RELEASE.jar:5.2.8.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.37.jar:9.0.37]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.37.jar:9.0.37]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-5.2.8.RELEASE.jar:5.2.8.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.2.8.RELEASE.jar:5.2.8.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.37.jar:9.0.37]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.37.jar:9.0.37]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202) ~[tomcat-embed-core-9.0.37.jar:9.0.37]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96) [tomcat-embed-core-9.0.37.jar:9.0.37]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541) [tomcat-embed-core-9.0.37.jar:9.0.37]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139) [tomcat-embed-core-9.0.37.jar:9.0.37]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92) [tomcat-embed-core-9.0.37.jar:9.0.37]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) [tomcat-embed-core-9.0.37.jar:9.0.37]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343) [tomcat-embed-core-9.0.37.jar:9.0.37]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:373) [tomcat-embed-core-9.0.37.jar:9.0.37]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65) [tomcat-embed-core-9.0.37.jar:9.0.37]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868) [tomcat-embed-core-9.0.37.jar:9.0.37]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1589) [tomcat-embed-core-9.0.37.jar:9.0.37]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) [tomcat-embed-core-9.0.37.jar:9.0.37]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) [na:1.8.0_251]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) [na:1.8.0_251]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) [tomcat-embed-core-9.0.37.jar:9.0.37]
+	at java.lang.Thread.run(Unknown Source) [na:1.8.0_251]
+
+2020-09-16 10:00:08.797 ERROR 6892 --- [http-nio-8085-exec-7] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is com.splunk.HttpException: HTTP 400 -- supplied index 'deptemp' missing] with root cause
+
+com.splunk.HttpException: HTTP 400 -- supplied index 'deptemp' missing
+	at com.splunk.HttpException.create(HttpException.java:84) ~[splunk-1.6.0.0.jar:1.6.0]
+	at com.splunk.HttpService.send(HttpService.java:452) ~[splunk-1.6.0.0.jar:1.6.0]
+	at com.splunk.Service.send(Service.java:1293) ~[splunk-1.6.0.0.jar:1.6.0]
+	at com.splunk.Receiver.submit(Receiver.java:169) ~[splunk-1.6.0.0.jar:1.6.0]
+	at com.splunk.Receiver.submit(Receiver.java:136) ~[splunk-1.6.0.0.jar:1.6.0]
+	at com.splunk.Receiver.log(Receiver.java:196) ~[splunk-1.6.0.0.jar:1.6.0]
+	at com.AOPLogging.aspects.AOPLogging.aroundAdvice(AOPLogging.java:83) ~[classes/:na]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_251]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source) ~[na:1.8.0_251]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source) ~[na:1.8.0_251]
+	at java.lang.reflect.Method.invoke(Unknown Source) ~[na:1.8.0_251]
+	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethodWithGivenArgs(AbstractAspectJAdvice.java:644) ~[spring-aop-5.2.8.RELEASE.jar:5.2.8.RELEASE]
+	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethod(AbstractAspectJAdvice.java:633) ~[spring-aop-5.2.8.RELEASE.jar:5.2.8.RELEASE]
+	at org.springframework.aop.aspectj.AspectJAroundAdvice.invoke(AspectJAroundAdvice.java:70) ~[spring-aop-5.2.8.RELEASE.jar:5.2.8.RELEASE]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186) ~[spring-aop-5.2.8.RELEASE.jar:5.2.8.RELEASE]
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:749) ~[spring-aop-5.2.8.RELEASE.jar:5.2.8.RELEASE]
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:95) ~[spring-aop-5.2.8.RELEASE.jar:5.2.8.RELEASE]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186) ~[spring-aop-5.2.8.RELEASE.jar:5.2.8.RELEASE]
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:749) ~[spring-aop-5.2.8.RELEASE.jar:5.2.8.RELEASE]
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:691) ~[spring-aop-5.2.8.RELEASE.jar:5.2.8.RELEASE]
+	at com.DeptEmpUI.controller.DeptController$$EnhancerBySpringCGLIB$$5241e663.loginPage(<generated>) ~[classes/:na]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_251]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source) ~[na:1.8.0_251]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source) ~[na:1.8.0_251]
+	at java.lang.reflect.Method.invoke(Unknown Source) ~[na:1.8.0_251]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:190) ~[spring-web-5.2.8.RELEASE.jar:5.2.8.RELEASE]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138) ~[spring-web-5.2.8.RELEASE.jar:5.2.8.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:105) ~[spring-webmvc-5.2.8.RELEASE.jar:5.2.8.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:878) ~[spring-webmvc-5.2.8.RELEASE.jar:5.2.8.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:792) ~[spring-webmvc-5.2.8.RELEASE.jar:5.2.8.RELEASE]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) ~[spring-webmvc-5.2.8.RELEASE.jar:5.2.8.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1040) ~[spring-webmvc-5.2.8.RELEASE.jar:5.2.8.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943) ~[spring-webmvc-5.2.8.RELEASE.jar:5.2.8.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006) ~[spring-webmvc-5.2.8.RELEASE.jar:5.2.8.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898) ~[spring-webmvc-5.2.8.RELEASE.jar:5.2.8.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:626) ~[tomcat-embed-core-9.0.37.jar:4.0.FR]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883) ~[spring-webmvc-5.2.8.RELEASE.jar:5.2.8.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:733) ~[tomcat-embed-core-9.0.37.jar:4.0.FR]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231) ~[tomcat-embed-core-9.0.37.jar:9.0.37]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.37.jar:9.0.37]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53) ~[tomcat-embed-websocket-9.0.37.jar:9.0.37]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.37.jar:9.0.37]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.37.jar:9.0.37]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-5.2.8.RELEASE.jar:5.2.8.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.2.8.RELEASE.jar:5.2.8.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.37.jar:9.0.37]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.37.jar:9.0.37]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-5.2.8.RELEASE.jar:5.2.8.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.2.8.RELEASE.jar:5.2.8.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.37.jar:9.0.37]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.37.jar:9.0.37]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-5.2.8.RELEASE.jar:5.2.8.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.2.8.RELEASE.jar:5.2.8.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.37.jar:9.0.37]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.37.jar:9.0.37]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202) ~[tomcat-embed-core-9.0.37.jar:9.0.37]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96) [tomcat-embed-core-9.0.37.jar:9.0.37]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541) [tomcat-embed-core-9.0.37.jar:9.0.37]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139) [tomcat-embed-core-9.0.37.jar:9.0.37]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92) [tomcat-embed-core-9.0.37.jar:9.0.37]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) [tomcat-embed-core-9.0.37.jar:9.0.37]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343) [tomcat-embed-core-9.0.37.jar:9.0.37]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:373) [tomcat-embed-core-9.0.37.jar:9.0.37]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65) [tomcat-embed-core-9.0.37.jar:9.0.37]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868) [tomcat-embed-core-9.0.37.jar:9.0.37]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1589) [tomcat-embed-core-9.0.37.jar:9.0.37]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) [tomcat-embed-core-9.0.37.jar:9.0.37]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) [na:1.8.0_251]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) [na:1.8.0_251]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) [tomcat-embed-core-9.0.37.jar:9.0.37]
+	at java.lang.Thread.run(Unknown Source) [na:1.8.0_251]
+
+2020-09-16 10:00:22.955 ERROR 6892 --- [http-nio-8085-exec-9] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is com.splunk.HttpException: HTTP 400 -- supplied index 'deptemp' missing] with root cause
+
+com.splunk.HttpException: HTTP 400 -- supplied index 'deptemp' missing
+	at com.splunk.HttpException.create(HttpException.java:84) ~[splunk-1.6.0.0.jar:1.6.0]
+	at com.splunk.HttpService.send(HttpService.java:452) ~[splunk-1.6.0.0.jar:1.6.0]
+	at com.splunk.Service.send(Service.java:1293) ~[splunk-1.6.0.0.jar:1.6.0]
+	at com.splunk.Receiver.submit(Receiver.java:169) ~[splunk-1.6.0.0.jar:1.6.0]
+	at com.splunk.Receiver.submit(Receiver.java:136) ~[splunk-1.6.0.0.jar:1.6.0]
+	at com.splunk.Receiver.log(Receiver.java:196) ~[splunk-1.6.0.0.jar:1.6.0]
+	at com.AOPLogging.aspects.AOPLogging.aroundAdvice(AOPLogging.java:83) ~[classes/:na]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_251]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source) ~[na:1.8.0_251]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source) ~[na:1.8.0_251]
+	at java.lang.reflect.Method.invoke(Unknown Source) ~[na:1.8.0_251]
+	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethodWithGivenArgs(AbstractAspectJAdvice.java:644) ~[spring-aop-5.2.8.RELEASE.jar:5.2.8.RELEASE]
+	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethod(AbstractAspectJAdvice.java:633) ~[spring-aop-5.2.8.RELEASE.jar:5.2.8.RELEASE]
+	at org.springframework.aop.aspectj.AspectJAroundAdvice.invoke(AspectJAroundAdvice.java:70) ~[spring-aop-5.2.8.RELEASE.jar:5.2.8.RELEASE]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186) ~[spring-aop-5.2.8.RELEASE.jar:5.2.8.RELEASE]
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:749) ~[spring-aop-5.2.8.RELEASE.jar:5.2.8.RELEASE]
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:95) ~[spring-aop-5.2.8.RELEASE.jar:5.2.8.RELEASE]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186) ~[spring-aop-5.2.8.RELEASE.jar:5.2.8.RELEASE]
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:749) ~[spring-aop-5.2.8.RELEASE.jar:5.2.8.RELEASE]
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:691) ~[spring-aop-5.2.8.RELEASE.jar:5.2.8.RELEASE]
+	at com.DeptEmpUI.controller.DeptController$$EnhancerBySpringCGLIB$$5241e663.loginPage(<generated>) ~[classes/:na]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_251]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source) ~[na:1.8.0_251]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source) ~[na:1.8.0_251]
+	at java.lang.reflect.Method.invoke(Unknown Source) ~[na:1.8.0_251]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:190) ~[spring-web-5.2.8.RELEASE.jar:5.2.8.RELEASE]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138) ~[spring-web-5.2.8.RELEASE.jar:5.2.8.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:105) ~[spring-webmvc-5.2.8.RELEASE.jar:5.2.8.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:878) ~[spring-webmvc-5.2.8.RELEASE.jar:5.2.8.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:792) ~[spring-webmvc-5.2.8.RELEASE.jar:5.2.8.RELEASE]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) ~[spring-webmvc-5.2.8.RELEASE.jar:5.2.8.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1040) ~[spring-webmvc-5.2.8.RELEASE.jar:5.2.8.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943) ~[spring-webmvc-5.2.8.RELEASE.jar:5.2.8.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006) ~[spring-webmvc-5.2.8.RELEASE.jar:5.2.8.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898) ~[spring-webmvc-5.2.8.RELEASE.jar:5.2.8.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:626) ~[tomcat-embed-core-9.0.37.jar:4.0.FR]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883) ~[spring-webmvc-5.2.8.RELEASE.jar:5.2.8.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:733) ~[tomcat-embed-core-9.0.37.jar:4.0.FR]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231) ~[tomcat-embed-core-9.0.37.jar:9.0.37]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.37.jar:9.0.37]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53) ~[tomcat-embed-websocket-9.0.37.jar:9.0.37]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.37.jar:9.0.37]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.37.jar:9.0.37]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-5.2.8.RELEASE.jar:5.2.8.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.2.8.RELEASE.jar:5.2.8.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.37.jar:9.0.37]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.37.jar:9.0.37]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-5.2.8.RELEASE.jar:5.2.8.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.2.8.RELEASE.jar:5.2.8.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.37.jar:9.0.37]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.37.jar:9.0.37]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-5.2.8.RELEASE.jar:5.2.8.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.2.8.RELEASE.jar:5.2.8.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.37.jar:9.0.37]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.37.jar:9.0.37]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202) ~[tomcat-embed-core-9.0.37.jar:9.0.37]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96) [tomcat-embed-core-9.0.37.jar:9.0.37]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541) [tomcat-embed-core-9.0.37.jar:9.0.37]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139) [tomcat-embed-core-9.0.37.jar:9.0.37]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92) [tomcat-embed-core-9.0.37.jar:9.0.37]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) [tomcat-embed-core-9.0.37.jar:9.0.37]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343) [tomcat-embed-core-9.0.37.jar:9.0.37]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:373) [tomcat-embed-core-9.0.37.jar:9.0.37]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65) [tomcat-embed-core-9.0.37.jar:9.0.37]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868) [tomcat-embed-core-9.0.37.jar:9.0.37]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1589) [tomcat-embed-core-9.0.37.jar:9.0.37]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) [tomcat-embed-core-9.0.37.jar:9.0.37]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) [na:1.8.0_251]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) [na:1.8.0_251]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) [tomcat-embed-core-9.0.37.jar:9.0.37]
+	at java.lang.Thread.run(Unknown Source) [na:1.8.0_251]
+
+2020-09-16 10:03:04.681  INFO 6892 --- [Thread-1] o.s.c.n.e.s.EurekaServiceRegistry        : Unregistering application UI-SERVICE with eureka with status DOWN
+2020-09-16 10:03:04.682  WARN 6892 --- [Thread-1] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1600230784682, current=DOWN, previous=UP]
+2020-09-16 10:03:04.683  INFO 6892 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_UI-SERVICE/DELL-PC:UI-service:8085: registering service...
+2020-09-16 10:03:04.873  INFO 6892 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_UI-SERVICE/DELL-PC:UI-service:8085 - registration status: 204
+2020-09-16 10:03:05.607  INFO 6892 --- [Thread-1] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-09-16 10:03:05.675  INFO 6892 --- [Thread-1] com.netflix.discovery.DiscoveryClient    : Shutting down DiscoveryClient ...
+2020-09-16 10:03:08.678  INFO 6892 --- [Thread-1] com.netflix.discovery.DiscoveryClient    : Unregistering ...
+2020-09-16 10:03:08.707  INFO 6892 --- [Thread-1] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_UI-SERVICE/DELL-PC:UI-service:8085 - deregister  status: 200
+2020-09-16 10:03:08.978  INFO 6892 --- [Thread-1] com.netflix.discovery.DiscoveryClient    : Completed shut down of DiscoveryClient
+2020-09-16 10:03:11.410  INFO 6892 --- [restartedMain] com.DeptEmpUI.DeptEmpUiApplication       : No active profile set, falling back to default profiles: default
+2020-09-16 10:03:13.937  INFO 6892 --- [restartedMain] o.s.cloud.context.scope.GenericScope     : BeanFactory id=25097969-6b07-3c7f-b53e-a21c5a3d322c
+2020-09-16 10:03:14.140  INFO 6892 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$178fa7fc] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-09-16 10:03:16.054  INFO 6892 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8085 (http)
+2020-09-16 10:03:16.055  INFO 6892 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-09-16 10:03:16.060  INFO 6892 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.37]
+2020-09-16 10:03:17.128  INFO 6892 --- [restartedMain] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2020-09-16 10:03:17.138  INFO 6892 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-09-16 10:03:17.139  INFO 6892 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 5708 ms
+2020-09-16 10:03:17.779  WARN 6892 --- [restartedMain] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2020-09-16 10:03:17.780  INFO 6892 --- [restartedMain] c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-09-16 10:03:18.633  INFO 6892 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-09-16 10:03:19.165  WARN 6892 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : Unable to start LiveReload server
+2020-09-16 10:03:21.044  INFO 6892 --- [restartedMain] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2020-09-16 10:03:21.057  INFO 6892 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+2020-09-16 10:03:21.064  INFO 6892 --- [restartedMain] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON encoding codec LegacyJacksonJson
+2020-09-16 10:03:21.065  INFO 6892 --- [restartedMain] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON decoding codec LegacyJacksonJson
+2020-09-16 10:03:21.066  INFO 6892 --- [restartedMain] c.n.d.provider.DiscoveryJerseyProvider   : Using XML encoding codec XStreamXml
+2020-09-16 10:03:21.067  INFO 6892 --- [restartedMain] c.n.d.provider.DiscoveryJerseyProvider   : Using XML decoding codec XStreamXml
+2020-09-16 10:03:21.312  INFO 6892 --- [restartedMain] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2020-09-16 10:03:22.117  INFO 6892 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2020-09-16 10:03:22.118  INFO 6892 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2020-09-16 10:03:22.119  INFO 6892 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2020-09-16 10:03:22.119  INFO 6892 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Application is null : false
+2020-09-16 10:03:22.119  INFO 6892 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2020-09-16 10:03:22.119  INFO 6892 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Application version is -1: true
+2020-09-16 10:03:22.120  INFO 6892 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2020-09-16 10:03:22.150  INFO 6892 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : The response status is 200
+2020-09-16 10:03:22.153  INFO 6892 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Starting heartbeat executor: renew interval is: 30
+2020-09-16 10:03:22.155  INFO 6892 --- [restartedMain] c.n.discovery.InstanceInfoReplicator     : InstanceInfoReplicator onDemand update allowed rate per min is 4
+2020-09-16 10:03:22.157  INFO 6892 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1600230802157 with initial instances count: 4
+2020-09-16 10:03:22.173  INFO 6892 --- [restartedMain] o.s.c.n.e.s.EurekaServiceRegistry        : Registering application UI-SERVICE with eureka with status UP
+2020-09-16 10:03:22.174  INFO 6892 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1600230802174, current=UP, previous=STARTING]
+2020-09-16 10:03:22.189  INFO 6892 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_UI-SERVICE/DELL-PC:UI-service:8085: registering service...
+2020-09-16 10:03:22.201  INFO 6892 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8085 (http) with context path ''
+2020-09-16 10:03:22.203  INFO 6892 --- [restartedMain] .s.c.n.e.s.EurekaAutoServiceRegistration : Updating port to 8085
+2020-09-16 10:03:22.235  INFO 6892 --- [restartedMain] com.DeptEmpUI.DeptEmpUiApplication       : Started DeptEmpUiApplication in 12.618 seconds (JVM running for 279.026)
+2020-09-16 10:03:22.249  INFO 6892 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2020-09-16 10:03:22.510  INFO 6892 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_UI-SERVICE/DELL-PC:UI-service:8085 - registration status: 204
+2020-09-16 10:03:28.356  INFO 6892 --- [http-nio-8085-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-09-16 10:03:28.357  INFO 6892 --- [http-nio-8085-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-09-16 10:03:28.373  INFO 6892 --- [http-nio-8085-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 16 ms
+2020-09-16 10:03:28.742  INFO 6892 --- [http-nio-8085-exec-1] com.AOPLogging.aspects.AOPLogging        : Department Advice:All Department related Operations
+2020-09-16 10:03:33.238  INFO 6892 --- [http-nio-8085-exec-8] c.netflix.config.ChainedDynamicProperty  : Flipping property: gateway-service.ribbon.ActiveConnectionsLimit to use NEXT property: niws.loadbalancer.availabilityFilteringRule.activeConnectionsLimit = 2147483647
+2020-09-16 10:03:33.556  INFO 6892 --- [http-nio-8085-exec-8] c.n.u.concurrent.ShutdownEnabledTimer    : Shutdown hook installed for: NFLoadBalancer-PingTimer-gateway-service
+2020-09-16 10:03:33.557  INFO 6892 --- [http-nio-8085-exec-8] c.netflix.loadbalancer.BaseLoadBalancer  : Client: gateway-service instantiated a LoadBalancer: DynamicServerListLoadBalancer:{NFLoadBalancer:name=gateway-service,current list of Servers=[],Load balancer stats=Zone stats: {},Server stats: []}ServerList:null
+2020-09-16 10:03:33.723  INFO 6892 --- [http-nio-8085-exec-8] c.n.l.DynamicServerListLoadBalancer      : Using serverListUpdater PollingServerListUpdater
+2020-09-16 10:03:33.968  INFO 6892 --- [http-nio-8085-exec-8] c.netflix.config.ChainedDynamicProperty  : Flipping property: gateway-service.ribbon.ActiveConnectionsLimit to use NEXT property: niws.loadbalancer.availabilityFilteringRule.activeConnectionsLimit = 2147483647
+2020-09-16 10:03:33.974  INFO 6892 --- [http-nio-8085-exec-8] c.n.l.DynamicServerListLoadBalancer      : DynamicServerListLoadBalancer for client gateway-service initialized: DynamicServerListLoadBalancer:{NFLoadBalancer:name=gateway-service,current list of Servers=[DELL-PC:8084],Load balancer stats=Zone stats: {defaultzone=[Zone:defaultzone;	Instance count:1;	Active connections count: 0;	Circuit breaker tripped count: 0;	Active connections per server: 0.0;]
+},Server stats: [[Server:DELL-PC:8084;	Zone:defaultZone;	Total Requests:0;	Successive connection failure:0;	Total blackout seconds:0;	Last connection made:Thu Jan 01 05:30:00 IST 1970;	First connection made: Thu Jan 01 05:30:00 IST 1970;	Active Connections:0;	total failure count in last (1000) msecs:0;	average resp time:0.0;	90 percentile resp time:0.0;	95 percentile resp time:0.0;	min resp time:0.0;	max resp time:0.0;	stddev resp time:0.0]
+]}ServerList:org.springframework.cloud.netflix.ribbon.eureka.DomainExtractingServerList@5cb9fc19
+2020-09-16 10:03:34.779  INFO 6892 --- [PollingServerListUpdater-0] c.netflix.config.ChainedDynamicProperty  : Flipping property: gateway-service.ribbon.ActiveConnectionsLimit to use NEXT property: niws.loadbalancer.availabilityFilteringRule.activeConnectionsLimit = 2147483647
+2020-09-16 10:03:52.503  INFO 6892 --- [http-nio-8085-exec-8] com.AOPLogging.aspects.AOPLogging        : Department Advice:All Department related Operations
+2020-09-16 10:04:07.847  INFO 6892 --- [http-nio-8085-exec-5] com.AOPLogging.aspects.AOPLogging        : Department Advice:All Department related Operations
+2020-09-16 10:04:11.302  INFO 6892 --- [http-nio-8085-exec-2] com.AOPLogging.aspects.AOPLogging        : Department Advice:All Department related Operations
+2020-09-16 10:09:49.017  INFO 9644 --- [restartedMain] com.DeptEmpUI.DeptEmpUiApplication       : No active profile set, falling back to default profiles: default
+2020-09-16 10:09:55.750  INFO 9644 --- [restartedMain] o.s.cloud.context.scope.GenericScope     : BeanFactory id=25097969-6b07-3c7f-b53e-a21c5a3d322c
+2020-09-16 10:09:57.815  INFO 9644 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$12260c44] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-09-16 10:10:08.908  INFO 9644 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8085 (http)
+2020-09-16 10:10:09.349  INFO 9644 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-09-16 10:10:09.350  INFO 9644 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.37]
+2020-09-16 10:10:12.253  INFO 9644 --- [restartedMain] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2020-09-16 10:10:12.281  INFO 9644 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-09-16 10:10:12.283  INFO 9644 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 23172 ms
+2020-09-16 10:10:17.168  WARN 9644 --- [restartedMain] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2020-09-16 10:10:17.169  INFO 9644 --- [restartedMain] c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-09-16 10:10:17.187  WARN 9644 --- [restartedMain] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2020-09-16 10:10:17.188  INFO 9644 --- [restartedMain] c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-09-16 10:10:18.617  INFO 9644 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-09-16 10:10:20.767  WARN 9644 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : Unable to start LiveReload server
+2020-09-16 10:10:22.906  INFO 9644 --- [restartedMain] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2020-09-16 10:10:23.561  INFO 9644 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+2020-09-16 10:10:24.292  INFO 9644 --- [restartedMain] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON encoding codec LegacyJacksonJson
+2020-09-16 10:10:24.294  INFO 9644 --- [restartedMain] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON decoding codec LegacyJacksonJson
+2020-09-16 10:10:25.779  INFO 9644 --- [restartedMain] c.n.d.provider.DiscoveryJerseyProvider   : Using XML encoding codec XStreamXml
+2020-09-16 10:10:25.780  INFO 9644 --- [restartedMain] c.n.d.provider.DiscoveryJerseyProvider   : Using XML decoding codec XStreamXml
+2020-09-16 10:10:27.050  INFO 9644 --- [restartedMain] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2020-09-16 10:10:27.492  INFO 9644 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2020-09-16 10:10:27.492  INFO 9644 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2020-09-16 10:10:27.493  INFO 9644 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2020-09-16 10:10:27.493  INFO 9644 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Application is null : false
+2020-09-16 10:10:27.494  INFO 9644 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2020-09-16 10:10:27.494  INFO 9644 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Application version is -1: true
+2020-09-16 10:10:27.495  INFO 9644 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2020-09-16 10:10:28.369  INFO 9644 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : The response status is 200
+2020-09-16 10:10:28.382  INFO 9644 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Starting heartbeat executor: renew interval is: 30
+2020-09-16 10:10:28.389  INFO 9644 --- [restartedMain] c.n.discovery.InstanceInfoReplicator     : InstanceInfoReplicator onDemand update allowed rate per min is 4
+2020-09-16 10:10:28.514  INFO 9644 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1600231228396 with initial instances count: 5
+2020-09-16 10:10:28.536  INFO 9644 --- [restartedMain] o.s.c.n.e.s.EurekaServiceRegistry        : Registering application UI-SERVICE with eureka with status UP
+2020-09-16 10:10:28.537  INFO 9644 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1600231228537, current=UP, previous=STARTING]
+2020-09-16 10:10:28.548  INFO 9644 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_UI-SERVICE/DELL-PC:UI-service:8085: registering service...
+2020-09-16 10:10:29.199  INFO 9644 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_UI-SERVICE/DELL-PC:UI-service:8085 - registration status: 204
+2020-09-16 10:10:29.425  INFO 9644 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8085 (http) with context path ''
+2020-09-16 10:10:29.427  INFO 9644 --- [restartedMain] .s.c.n.e.s.EurekaAutoServiceRegistration : Updating port to 8085
+2020-09-16 10:10:29.487  INFO 9644 --- [restartedMain] com.DeptEmpUI.DeptEmpUiApplication       : Started DeptEmpUiApplication in 50.619 seconds (JVM running for 56.918)
+2020-09-16 10:11:32.205  INFO 9644 --- [http-nio-8085-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-09-16 10:11:32.206  INFO 9644 --- [http-nio-8085-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-09-16 10:11:32.245  INFO 9644 --- [http-nio-8085-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 38 ms
+2020-09-16 10:11:32.669  INFO 9644 --- [http-nio-8085-exec-1] com.AOPLogging.aspects.AOPLogging        : Department Advice:All Department related Operations
+2020-09-16 10:11:34.566  INFO 9644 --- [http-nio-8085-exec-2] c.netflix.config.ChainedDynamicProperty  : Flipping property: gateway-service.ribbon.ActiveConnectionsLimit to use NEXT property: niws.loadbalancer.availabilityFilteringRule.activeConnectionsLimit = 2147483647
+2020-09-16 10:11:34.746  INFO 9644 --- [http-nio-8085-exec-2] c.n.u.concurrent.ShutdownEnabledTimer    : Shutdown hook installed for: NFLoadBalancer-PingTimer-gateway-service
+2020-09-16 10:11:34.749  INFO 9644 --- [http-nio-8085-exec-2] c.netflix.loadbalancer.BaseLoadBalancer  : Client: gateway-service instantiated a LoadBalancer: DynamicServerListLoadBalancer:{NFLoadBalancer:name=gateway-service,current list of Servers=[],Load balancer stats=Zone stats: {},Server stats: []}ServerList:null
+2020-09-16 10:11:34.770  INFO 9644 --- [http-nio-8085-exec-2] c.n.l.DynamicServerListLoadBalancer      : Using serverListUpdater PollingServerListUpdater
+2020-09-16 10:11:34.875  INFO 9644 --- [http-nio-8085-exec-2] c.netflix.config.ChainedDynamicProperty  : Flipping property: gateway-service.ribbon.ActiveConnectionsLimit to use NEXT property: niws.loadbalancer.availabilityFilteringRule.activeConnectionsLimit = 2147483647
+2020-09-16 10:11:34.888  INFO 9644 --- [http-nio-8085-exec-2] c.n.l.DynamicServerListLoadBalancer      : DynamicServerListLoadBalancer for client gateway-service initialized: DynamicServerListLoadBalancer:{NFLoadBalancer:name=gateway-service,current list of Servers=[DELL-PC:8084],Load balancer stats=Zone stats: {defaultzone=[Zone:defaultzone;	Instance count:1;	Active connections count: 0;	Circuit breaker tripped count: 0;	Active connections per server: 0.0;]
+},Server stats: [[Server:DELL-PC:8084;	Zone:defaultZone;	Total Requests:0;	Successive connection failure:0;	Total blackout seconds:0;	Last connection made:Thu Jan 01 05:30:00 IST 1970;	First connection made: Thu Jan 01 05:30:00 IST 1970;	Active Connections:0;	total failure count in last (1000) msecs:0;	average resp time:0.0;	90 percentile resp time:0.0;	95 percentile resp time:0.0;	min resp time:0.0;	max resp time:0.0;	stddev resp time:0.0]
+]}ServerList:org.springframework.cloud.netflix.ribbon.eureka.DomainExtractingServerList@3e01ab3a
+2020-09-16 10:11:35.785  INFO 9644 --- [PollingServerListUpdater-0] c.netflix.config.ChainedDynamicProperty  : Flipping property: gateway-service.ribbon.ActiveConnectionsLimit to use NEXT property: niws.loadbalancer.availabilityFilteringRule.activeConnectionsLimit = 2147483647
+2020-09-16 10:11:55.558  INFO 9644 --- [http-nio-8085-exec-2] com.AOPLogging.aspects.AOPLogging        : Department Advice:All Department related Operations
+2020-09-16 10:12:12.818  INFO 9644 --- [http-nio-8085-exec-5] com.AOPLogging.aspects.AOPLogging        : Department Advice:All Department related Operations
+2020-09-16 10:12:25.664  INFO 9644 --- [http-nio-8085-exec-8] com.AOPLogging.aspects.AOPLogging        : Department Advice:All Department related Operations
+2020-09-16 10:12:26.022  INFO 9644 --- [http-nio-8085-exec-9] com.AOPLogging.aspects.AOPLogging        : Department Advice:All Department related Operations
+2020-09-16 10:12:30.832  INFO 9644 --- [http-nio-8085-exec-3] com.AOPLogging.aspects.AOPLogging        : Department Advice:All Department related Operations
+2020-09-16 10:12:37.932  INFO 9644 --- [http-nio-8085-exec-5] com.AOPLogging.aspects.AOPLogging        : Department Advice:All Department related Operations
+2020-09-16 10:12:38.204  INFO 9644 --- [http-nio-8085-exec-6] com.AOPLogging.aspects.AOPLogging        : Department Advice:All Department related Operations
+2020-09-16 10:12:41.322  INFO 9644 --- [http-nio-8085-exec-7] com.AOPLogging.aspects.AOPLogging        : Department Advice:All Department related Operations
+2020-09-16 10:12:41.618  INFO 9644 --- [http-nio-8085-exec-8] com.AOPLogging.aspects.AOPLogging        : Department Advice:All Department related Operations
+2020-09-16 10:12:44.685  INFO 9644 --- [http-nio-8085-exec-9] com.AOPLogging.aspects.AOPLogging        : Department Advice:All Department related Operations
+2020-09-16 10:13:10.231  INFO 9644 --- [http-nio-8085-exec-10] com.AOPLogging.aspects.AOPLogging        : Department Advice:All Department related Operations
+2020-09-16 10:13:21.908  INFO 9644 --- [http-nio-8085-exec-2] com.AOPLogging.aspects.AOPLogging        : Department Advice:All Department related Operations
+2020-09-16 10:13:47.316  INFO 9644 --- [http-nio-8085-exec-5] com.AOPLogging.aspects.AOPLogging        : Department Advice:All Department related Operations
+2020-09-16 10:14:09.042  WARN 9644 --- [http-nio-8085-exec-6] com.DeptEmpUI.controller.DeptController  : If Service shows some error...Please refresh the page
+2020-09-16 10:14:09.043  INFO 9644 --- [http-nio-8085-exec-6] com.AOPLogging.aspects.AOPLogging        : Department Advice:All Department related Operations
+2020-09-16 10:14:13.167  WARN 9644 --- [http-nio-8085-exec-9] com.DeptEmpUI.controller.DeptController  : If Service shows some error...Please refresh the page
+2020-09-16 10:14:13.168  INFO 9644 --- [http-nio-8085-exec-9] com.AOPLogging.aspects.AOPLogging        : Department Advice:All Department related Operations
+2020-09-16 10:14:16.790  INFO 9644 --- [http-nio-8085-exec-1] com.AOPLogging.aspects.AOPLogging        : Employee Advice:All Employee related Operations
+2020-09-16 10:14:36.623  INFO 9644 --- [http-nio-8085-exec-4] com.AOPLogging.aspects.AOPLogging        : Employee Advice:All Employee related Operations
+2020-09-16 10:14:37.361  WARN 9644 --- [http-nio-8085-exec-5] com.DeptEmpUI.controller.DeptController  : If Service shows some error...Please refresh the page
+2020-09-16 10:14:37.362  INFO 9644 --- [http-nio-8085-exec-5] com.AOPLogging.aspects.AOPLogging        : Department Advice:All Department related Operations
+2020-09-16 10:14:43.330  INFO 9644 --- [http-nio-8085-exec-6] com.AOPLogging.aspects.AOPLogging        : Employee Advice:All Employee related Operations
+2020-09-16 10:14:43.799  WARN 9644 --- [http-nio-8085-exec-8] com.DeptEmpUI.controller.DeptController  : If Service shows some error...Please refresh the page
+2020-09-16 10:14:43.800  INFO 9644 --- [http-nio-8085-exec-8] com.AOPLogging.aspects.AOPLogging        : Department Advice:All Department related Operations
+2020-09-16 10:14:46.884  INFO 9644 --- [http-nio-8085-exec-9] com.AOPLogging.aspects.AOPLogging        : Employee Advice:All Employee related Operations
+2020-09-16 10:14:53.866  INFO 9644 --- [http-nio-8085-exec-1] com.AOPLogging.aspects.AOPLogging        : Employee Advice:All Employee related Operations
+2020-09-16 10:14:54.398  WARN 9644 --- [http-nio-8085-exec-2] com.DeptEmpUI.controller.DeptController  : If Service shows some error...Please refresh the page
+2020-09-16 10:14:54.399  INFO 9644 --- [http-nio-8085-exec-2] com.AOPLogging.aspects.AOPLogging        : Department Advice:All Department related Operations
+2020-09-16 10:15:27.556  INFO 9644 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2020-09-16 10:17:31.661  WARN 9644 --- [http-nio-8085-exec-5] com.DeptEmpUI.controller.DeptController  : If Service shows some error...Please refresh the page
+2020-09-16 10:17:31.662  INFO 9644 --- [http-nio-8085-exec-5] com.AOPLogging.aspects.AOPLogging        : Department Advice:All Department related Operations
+2020-09-16 10:17:34.207  INFO 9644 --- [http-nio-8085-exec-8] com.AOPLogging.aspects.AOPLogging        : Employee Advice:All Employee related Operations
+2020-09-16 10:17:47.550  INFO 9644 --- [http-nio-8085-exec-3] com.AOPLogging.aspects.AOPLogging        : Employee Advice:All Employee related Operations
+2020-09-16 10:17:48.456  WARN 9644 --- [http-nio-8085-exec-1] com.DeptEmpUI.controller.DeptController  : If Service shows some error...Please refresh the page
+2020-09-16 10:17:48.457  INFO 9644 --- [http-nio-8085-exec-1] com.AOPLogging.aspects.AOPLogging        : Department Advice:All Department related Operations
+2020-09-16 10:17:51.288  INFO 9644 --- [http-nio-8085-exec-2] com.AOPLogging.aspects.AOPLogging        : Employee Advice:All Employee related Operations
+2020-09-16 10:18:03.354  INFO 9644 --- [http-nio-8085-exec-7] com.AOPLogging.aspects.AOPLogging        : Employee Advice:All Employee related Operations
+2020-09-16 10:18:04.019  WARN 9644 --- [http-nio-8085-exec-6] com.DeptEmpUI.controller.DeptController  : If Service shows some error...Please refresh the page
+2020-09-16 10:18:04.020  INFO 9644 --- [http-nio-8085-exec-6] com.AOPLogging.aspects.AOPLogging        : Department Advice:All Department related Operations
+2020-09-16 10:20:27.583  INFO 9644 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2020-09-16 10:24:34.664  INFO 10176 --- [restartedMain] com.DeptEmpUI.DeptEmpUiApplication       : No active profile set, falling back to default profiles: default
+2020-09-16 10:24:40.198  INFO 10176 --- [restartedMain] o.s.cloud.context.scope.GenericScope     : BeanFactory id=25097969-6b07-3c7f-b53e-a21c5a3d322c
+2020-09-16 10:24:40.943  INFO 10176 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$b307e22a] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-09-16 10:24:49.941  INFO 10176 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8085 (http)
+2020-09-16 10:24:50.099  INFO 10176 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-09-16 10:24:50.101  INFO 10176 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.37]
+2020-09-16 10:24:52.079  INFO 10176 --- [restartedMain] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2020-09-16 10:24:52.091  INFO 10176 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-09-16 10:24:52.092  INFO 10176 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 17226 ms
+2020-09-16 10:24:55.095  WARN 10176 --- [restartedMain] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2020-09-16 10:24:55.096  INFO 10176 --- [restartedMain] c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-09-16 10:24:55.118  WARN 10176 --- [restartedMain] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2020-09-16 10:24:55.119  INFO 10176 --- [restartedMain] c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-09-16 10:24:56.667  INFO 10176 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-09-16 10:24:58.189  WARN 10176 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : Unable to start LiveReload server
+2020-09-16 10:25:00.924  INFO 10176 --- [restartedMain] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2020-09-16 10:25:01.507  INFO 10176 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+2020-09-16 10:25:01.920  INFO 10176 --- [restartedMain] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON encoding codec LegacyJacksonJson
+2020-09-16 10:25:01.922  INFO 10176 --- [restartedMain] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON decoding codec LegacyJacksonJson
+2020-09-16 10:25:03.067  INFO 10176 --- [restartedMain] c.n.d.provider.DiscoveryJerseyProvider   : Using XML encoding codec XStreamXml
+2020-09-16 10:25:03.069  INFO 10176 --- [restartedMain] c.n.d.provider.DiscoveryJerseyProvider   : Using XML decoding codec XStreamXml
+2020-09-16 10:25:04.314  INFO 10176 --- [restartedMain] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2020-09-16 10:25:05.385  INFO 10176 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2020-09-16 10:25:05.389  INFO 10176 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2020-09-16 10:25:05.390  INFO 10176 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2020-09-16 10:25:05.390  INFO 10176 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Application is null : false
+2020-09-16 10:25:05.390  INFO 10176 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2020-09-16 10:25:05.391  INFO 10176 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Application version is -1: true
+2020-09-16 10:25:05.391  INFO 10176 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2020-09-16 10:25:06.838  INFO 10176 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : The response status is 200
+2020-09-16 10:25:06.844  INFO 10176 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Starting heartbeat executor: renew interval is: 30
+2020-09-16 10:25:06.850  INFO 10176 --- [restartedMain] c.n.discovery.InstanceInfoReplicator     : InstanceInfoReplicator onDemand update allowed rate per min is 4
+2020-09-16 10:25:06.858  INFO 10176 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1600232106856 with initial instances count: 5
+2020-09-16 10:25:06.882  INFO 10176 --- [restartedMain] o.s.c.n.e.s.EurekaServiceRegistry        : Registering application UI-SERVICE with eureka with status UP
+2020-09-16 10:25:06.883  INFO 10176 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1600232106883, current=UP, previous=STARTING]
+2020-09-16 10:25:06.892  INFO 10176 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_UI-SERVICE/DELL-PC:UI-service:8085: registering service...
+2020-09-16 10:25:07.242  INFO 10176 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8085 (http) with context path ''
+2020-09-16 10:25:07.244  INFO 10176 --- [restartedMain] .s.c.n.e.s.EurekaAutoServiceRegistration : Updating port to 8085
+2020-09-16 10:25:07.268  INFO 10176 --- [restartedMain] com.DeptEmpUI.DeptEmpUiApplication       : Started DeptEmpUiApplication in 45.391 seconds (JVM running for 49.691)
+2020-09-16 10:25:07.560  INFO 10176 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_UI-SERVICE/DELL-PC:UI-service:8085 - registration status: 204
+2020-09-16 10:25:41.546  INFO 10176 --- [http-nio-8085-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-09-16 10:25:41.547  INFO 10176 --- [http-nio-8085-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-09-16 10:25:41.584  INFO 10176 --- [http-nio-8085-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 36 ms
+2020-09-16 10:25:41.811  INFO 10176 --- [http-nio-8085-exec-1] com.AOPLogging.aspects.AOPLogging        : Department Advice:All Department related Operations
+2020-09-16 10:25:43.419  INFO 10176 --- [http-nio-8085-exec-2] c.netflix.config.ChainedDynamicProperty  : Flipping property: gateway-service.ribbon.ActiveConnectionsLimit to use NEXT property: niws.loadbalancer.availabilityFilteringRule.activeConnectionsLimit = 2147483647
+2020-09-16 10:25:43.651  INFO 10176 --- [http-nio-8085-exec-2] c.n.u.concurrent.ShutdownEnabledTimer    : Shutdown hook installed for: NFLoadBalancer-PingTimer-gateway-service
+2020-09-16 10:25:43.653  INFO 10176 --- [http-nio-8085-exec-2] c.netflix.loadbalancer.BaseLoadBalancer  : Client: gateway-service instantiated a LoadBalancer: DynamicServerListLoadBalancer:{NFLoadBalancer:name=gateway-service,current list of Servers=[],Load balancer stats=Zone stats: {},Server stats: []}ServerList:null
+2020-09-16 10:25:43.682  INFO 10176 --- [http-nio-8085-exec-2] c.n.l.DynamicServerListLoadBalancer      : Using serverListUpdater PollingServerListUpdater
+2020-09-16 10:25:43.798  INFO 10176 --- [http-nio-8085-exec-2] c.netflix.config.ChainedDynamicProperty  : Flipping property: gateway-service.ribbon.ActiveConnectionsLimit to use NEXT property: niws.loadbalancer.availabilityFilteringRule.activeConnectionsLimit = 2147483647
+2020-09-16 10:25:43.803  INFO 10176 --- [http-nio-8085-exec-2] c.n.l.DynamicServerListLoadBalancer      : DynamicServerListLoadBalancer for client gateway-service initialized: DynamicServerListLoadBalancer:{NFLoadBalancer:name=gateway-service,current list of Servers=[DELL-PC:8084],Load balancer stats=Zone stats: {defaultzone=[Zone:defaultzone;	Instance count:1;	Active connections count: 0;	Circuit breaker tripped count: 0;	Active connections per server: 0.0;]
+},Server stats: [[Server:DELL-PC:8084;	Zone:defaultZone;	Total Requests:0;	Successive connection failure:0;	Total blackout seconds:0;	Last connection made:Thu Jan 01 05:30:00 IST 1970;	First connection made: Thu Jan 01 05:30:00 IST 1970;	Active Connections:0;	total failure count in last (1000) msecs:0;	average resp time:0.0;	90 percentile resp time:0.0;	95 percentile resp time:0.0;	min resp time:0.0;	max resp time:0.0;	stddev resp time:0.0]
+]}ServerList:org.springframework.cloud.netflix.ribbon.eureka.DomainExtractingServerList@3c05e95f
+2020-09-16 10:25:44.691  INFO 10176 --- [PollingServerListUpdater-0] c.netflix.config.ChainedDynamicProperty  : Flipping property: gateway-service.ribbon.ActiveConnectionsLimit to use NEXT property: niws.loadbalancer.availabilityFilteringRule.activeConnectionsLimit = 2147483647
+2020-09-16 10:25:45.755  INFO 10176 --- [http-nio-8085-exec-2] com.AOPLogging.aspects.AOPLogging        : Department Advice:All Department related Operations
+2020-09-16 10:26:50.480  INFO 10176 --- [http-nio-8085-exec-5] com.AOPLogging.aspects.AOPLogging        : Department Advice:All Department related Operations
+2020-09-16 10:27:20.633  INFO 10176 --- [http-nio-8085-exec-8] com.AOPLogging.aspects.AOPLogging        : Department Advice:All Department related Operations
+2020-09-16 10:27:44.937  INFO 10176 --- [http-nio-8085-exec-1] com.AOPLogging.aspects.AOPLogging        : Department Advice:All Department related Operations
+2020-09-16 10:27:52.467  INFO 10176 --- [http-nio-8085-exec-4] com.AOPLogging.aspects.AOPLogging        : Department Advice:All Department related Operations
+2020-09-16 10:28:02.386  INFO 10176 --- [http-nio-8085-exec-7] com.AOPLogging.aspects.AOPLogging        : Department Advice:All Department related Operations
+2020-09-16 10:28:04.967  INFO 10176 --- [http-nio-8085-exec-8] com.AOPLogging.aspects.AOPLogging        : Department Advice:All Department related Operations
+2020-09-16 10:28:07.803  INFO 10176 --- [http-nio-8085-exec-9] com.AOPLogging.aspects.AOPLogging        : Department Advice:All Department related Operations
+2020-09-16 10:28:13.533  INFO 10176 --- [http-nio-8085-exec-3] com.AOPLogging.aspects.AOPLogging        : Department Advice:All Department related Operations
+2020-09-16 10:28:14.343  INFO 10176 --- [http-nio-8085-exec-2] com.AOPLogging.aspects.AOPLogging        : Department Advice:All Department related Operations
+2020-09-16 10:28:21.412  INFO 10176 --- [http-nio-8085-exec-6] com.AOPLogging.aspects.AOPLogging        : Department Advice:All Department related Operations
+2020-09-16 10:28:22.780  INFO 10176 --- [http-nio-8085-exec-7] com.AOPLogging.aspects.AOPLogging        : Department Advice:All Department related Operations
+2020-09-16 10:30:05.395  INFO 10176 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2020-09-16 10:30:15.955  INFO 10176 --- [Thread-1] o.s.c.n.e.s.EurekaServiceRegistry        : Unregistering application UI-SERVICE with eureka with status DOWN
+2020-09-16 10:30:15.956  WARN 10176 --- [Thread-1] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1600232415956, current=DOWN, previous=UP]
+2020-09-16 10:30:15.958  INFO 10176 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_UI-SERVICE/DELL-PC:UI-service:8085: registering service...
+2020-09-16 10:30:16.043  INFO 10176 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_UI-SERVICE/DELL-PC:UI-service:8085 - registration status: 204
+2020-09-16 10:30:16.960  INFO 10176 --- [Thread-1] c.n.u.concurrent.ShutdownEnabledTimer    : Shutdown hook removed for: NFLoadBalancer-PingTimer-gateway-service
+2020-09-16 10:30:17.026  INFO 10176 --- [Thread-1] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-09-16 10:30:17.075  INFO 10176 --- [Thread-1] com.netflix.discovery.DiscoveryClient    : Shutting down DiscoveryClient ...
+2020-09-16 10:30:20.078  INFO 10176 --- [Thread-1] com.netflix.discovery.DiscoveryClient    : Unregistering ...
+2020-09-16 10:30:20.427  INFO 10176 --- [Thread-1] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_UI-SERVICE/DELL-PC:UI-service:8085 - deregister  status: 200
+2020-09-16 10:30:21.151  INFO 10176 --- [Thread-1] com.netflix.discovery.DiscoveryClient    : Completed shut down of DiscoveryClient
+2020-09-16 10:30:23.554  INFO 10176 --- [restartedMain] com.DeptEmpUI.DeptEmpUiApplication       : No active profile set, falling back to default profiles: default
+2020-09-16 10:30:25.578  INFO 10176 --- [restartedMain] o.s.cloud.context.scope.GenericScope     : BeanFactory id=25097969-6b07-3c7f-b53e-a21c5a3d322c
+2020-09-16 10:30:25.617  INFO 10176 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$b307e22a] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-09-16 10:30:27.600  INFO 10176 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8085 (http)
+2020-09-16 10:30:27.606  INFO 10176 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-09-16 10:30:27.606  INFO 10176 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.37]
+2020-09-16 10:30:28.458  INFO 10176 --- [restartedMain] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2020-09-16 10:30:28.475  INFO 10176 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-09-16 10:30:28.476  INFO 10176 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 4867 ms
+2020-09-16 10:30:29.070  WARN 10176 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Cannot deserialize session attribute [deptList] for session [5E125D59201626B1E283702682C65395]
+2020-09-16 10:30:29.448  WARN 10176 --- [restartedMain] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2020-09-16 10:30:29.448  INFO 10176 --- [restartedMain] c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-09-16 10:30:30.087  INFO 10176 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-09-16 10:30:30.531  WARN 10176 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : Unable to start LiveReload server
+2020-09-16 10:30:32.465  INFO 10176 --- [restartedMain] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2020-09-16 10:30:32.473  INFO 10176 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+2020-09-16 10:30:32.477  INFO 10176 --- [restartedMain] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON encoding codec LegacyJacksonJson
+2020-09-16 10:30:32.478  INFO 10176 --- [restartedMain] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON decoding codec LegacyJacksonJson
+2020-09-16 10:30:32.478  INFO 10176 --- [restartedMain] c.n.d.provider.DiscoveryJerseyProvider   : Using XML encoding codec XStreamXml
+2020-09-16 10:30:32.479  INFO 10176 --- [restartedMain] c.n.d.provider.DiscoveryJerseyProvider   : Using XML decoding codec XStreamXml
+2020-09-16 10:30:32.642  INFO 10176 --- [restartedMain] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2020-09-16 10:30:32.648  INFO 10176 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2020-09-16 10:30:32.648  INFO 10176 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2020-09-16 10:30:32.648  INFO 10176 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2020-09-16 10:30:32.649  INFO 10176 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Application is null : false
+2020-09-16 10:30:32.649  INFO 10176 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2020-09-16 10:30:32.649  INFO 10176 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Application version is -1: true
+2020-09-16 10:30:32.649  INFO 10176 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2020-09-16 10:30:32.670  INFO 10176 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : The response status is 200
+2020-09-16 10:30:32.672  INFO 10176 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Starting heartbeat executor: renew interval is: 30
+2020-09-16 10:30:32.674  INFO 10176 --- [restartedMain] c.n.discovery.InstanceInfoReplicator     : InstanceInfoReplicator onDemand update allowed rate per min is 4
+2020-09-16 10:30:32.676  INFO 10176 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1600232432676 with initial instances count: 5
+2020-09-16 10:30:32.697  INFO 10176 --- [restartedMain] o.s.c.n.e.s.EurekaServiceRegistry        : Registering application UI-SERVICE with eureka with status UP
+2020-09-16 10:30:32.697  INFO 10176 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1600232432697, current=UP, previous=STARTING]
+2020-09-16 10:30:32.710  INFO 10176 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_UI-SERVICE/DELL-PC:UI-service:8085: registering service...
+2020-09-16 10:30:32.738  INFO 10176 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8085 (http) with context path ''
+2020-09-16 10:30:32.748  INFO 10176 --- [restartedMain] .s.c.n.e.s.EurekaAutoServiceRegistration : Updating port to 8085
+2020-09-16 10:30:32.793  INFO 10176 --- [restartedMain] com.DeptEmpUI.DeptEmpUiApplication       : Started DeptEmpUiApplication in 10.67 seconds (JVM running for 375.215)
+2020-09-16 10:30:32.802  INFO 10176 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2020-09-16 10:30:32.864  INFO 10176 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_UI-SERVICE/DELL-PC:UI-service:8085 - registration status: 204
+2020-09-16 10:31:05.172  INFO 10176 --- [Thread-14] o.s.c.n.e.s.EurekaServiceRegistry        : Unregistering application UI-SERVICE with eureka with status DOWN
+2020-09-16 10:31:05.173  WARN 10176 --- [Thread-14] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1600232465173, current=DOWN, previous=UP]
+2020-09-16 10:31:05.173  INFO 10176 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_UI-SERVICE/DELL-PC:UI-service:8085: registering service...
+2020-09-16 10:31:05.548  INFO 10176 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_UI-SERVICE/DELL-PC:UI-service:8085 - registration status: 204
+2020-09-16 10:31:05.626  INFO 10176 --- [Thread-14] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-09-16 10:31:05.627  INFO 10176 --- [Thread-14] com.netflix.discovery.DiscoveryClient    : Shutting down DiscoveryClient ...
+2020-09-16 10:31:08.630  INFO 10176 --- [Thread-14] com.netflix.discovery.DiscoveryClient    : Unregistering ...
+2020-09-16 10:31:08.893  INFO 10176 --- [Thread-14] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_UI-SERVICE/DELL-PC:UI-service:8085 - deregister  status: 200
+2020-09-16 10:31:08.926  INFO 10176 --- [Thread-14] com.netflix.discovery.DiscoveryClient    : Completed shut down of DiscoveryClient
+2020-09-16 10:31:12.569  INFO 10176 --- [restartedMain] com.DeptEmpUI.DeptEmpUiApplication       : No active profile set, falling back to default profiles: default
+2020-09-16 10:31:14.193  INFO 10176 --- [restartedMain] o.s.cloud.context.scope.GenericScope     : BeanFactory id=25097969-6b07-3c7f-b53e-a21c5a3d322c
+2020-09-16 10:31:14.259  INFO 10176 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$b307e22a] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-09-16 10:31:14.988  INFO 10176 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8085 (http)
+2020-09-16 10:31:14.990  INFO 10176 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-09-16 10:31:14.991  INFO 10176 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.37]
+2020-09-16 10:31:15.771  INFO 10176 --- [restartedMain] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2020-09-16 10:31:15.781  INFO 10176 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-09-16 10:31:15.782  INFO 10176 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3194 ms
+2020-09-16 10:31:16.426  WARN 10176 --- [restartedMain] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2020-09-16 10:31:16.427  INFO 10176 --- [restartedMain] c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-09-16 10:31:17.740  INFO 10176 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-09-16 10:31:18.889  WARN 10176 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : Unable to start LiveReload server
+2020-09-16 10:31:21.363  INFO 10176 --- [restartedMain] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2020-09-16 10:31:21.368  INFO 10176 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+2020-09-16 10:31:21.374  INFO 10176 --- [restartedMain] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON encoding codec LegacyJacksonJson
+2020-09-16 10:31:21.375  INFO 10176 --- [restartedMain] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON decoding codec LegacyJacksonJson
+2020-09-16 10:31:21.375  INFO 10176 --- [restartedMain] c.n.d.provider.DiscoveryJerseyProvider   : Using XML encoding codec XStreamXml
+2020-09-16 10:31:21.375  INFO 10176 --- [restartedMain] c.n.d.provider.DiscoveryJerseyProvider   : Using XML decoding codec XStreamXml
+2020-09-16 10:31:21.731  INFO 10176 --- [restartedMain] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2020-09-16 10:31:21.734  INFO 10176 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2020-09-16 10:31:21.735  INFO 10176 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2020-09-16 10:31:21.735  INFO 10176 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2020-09-16 10:31:21.736  INFO 10176 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Application is null : false
+2020-09-16 10:31:21.736  INFO 10176 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2020-09-16 10:31:21.740  INFO 10176 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Application version is -1: true
+2020-09-16 10:31:21.740  INFO 10176 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2020-09-16 10:31:21.756  INFO 10176 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : The response status is 200
+2020-09-16 10:31:21.758  INFO 10176 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Starting heartbeat executor: renew interval is: 30
+2020-09-16 10:31:21.761  INFO 10176 --- [restartedMain] c.n.discovery.InstanceInfoReplicator     : InstanceInfoReplicator onDemand update allowed rate per min is 4
+2020-09-16 10:31:21.763  INFO 10176 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1600232481762 with initial instances count: 3
+2020-09-16 10:31:21.789  INFO 10176 --- [restartedMain] o.s.c.n.e.s.EurekaServiceRegistry        : Registering application UI-SERVICE with eureka with status UP
+2020-09-16 10:31:21.790  INFO 10176 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1600232481790, current=UP, previous=STARTING]
+2020-09-16 10:31:21.805  INFO 10176 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8085 (http) with context path ''
+2020-09-16 10:31:21.806  INFO 10176 --- [restartedMain] .s.c.n.e.s.EurekaAutoServiceRegistration : Updating port to 8085
+2020-09-16 10:31:21.811  INFO 10176 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_UI-SERVICE/DELL-PC:UI-service:8085: registering service...
+2020-09-16 10:31:21.843  INFO 10176 --- [restartedMain] com.DeptEmpUI.DeptEmpUiApplication       : Started DeptEmpUiApplication in 12.425 seconds (JVM running for 424.266)
+2020-09-16 10:31:21.853  INFO 10176 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2020-09-16 10:31:21.896  INFO 10176 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_UI-SERVICE/DELL-PC:UI-service:8085 - registration status: 204
+2020-09-16 10:31:48.968  INFO 10176 --- [Thread-22] o.s.c.n.e.s.EurekaServiceRegistry        : Unregistering application UI-SERVICE with eureka with status DOWN
+2020-09-16 10:31:48.969  WARN 10176 --- [Thread-22] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1600232508969, current=DOWN, previous=UP]
+2020-09-16 10:31:48.969  INFO 10176 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_UI-SERVICE/DELL-PC:UI-service:8085: registering service...
+2020-09-16 10:31:49.067  INFO 10176 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_UI-SERVICE/DELL-PC:UI-service:8085 - registration status: 204
+2020-09-16 10:31:49.303  INFO 10176 --- [Thread-22] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-09-16 10:31:49.309  INFO 10176 --- [Thread-22] com.netflix.discovery.DiscoveryClient    : Shutting down DiscoveryClient ...
+2020-09-16 10:31:52.322  INFO 10176 --- [Thread-22] com.netflix.discovery.DiscoveryClient    : Unregistering ...
+2020-09-16 10:31:52.323  WARN 10176 --- [DiscoveryClient-0] c.netflix.discovery.TimedSupervisorTask  : task supervisor shutting down, can't accept the task
+2020-09-16 10:31:52.594  INFO 10176 --- [Thread-22] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_UI-SERVICE/DELL-PC:UI-service:8085 - deregister  status: 200
+2020-09-16 10:31:52.609  INFO 10176 --- [Thread-22] com.netflix.discovery.DiscoveryClient    : Completed shut down of DiscoveryClient
+2020-09-16 10:31:56.806  INFO 10176 --- [restartedMain] com.DeptEmpUI.DeptEmpUiApplication       : No active profile set, falling back to default profiles: default
+2020-09-16 10:31:56.997 ERROR 10176 --- [restartedMain] o.s.boot.SpringApplication               : Application run failed
+
+java.lang.ArrayStoreException: sun.reflect.annotation.TypeNotPresentExceptionProxy
+	at sun.reflect.annotation.AnnotationParser.parseClassArray(Unknown Source) ~[na:1.8.0_251]
+	at sun.reflect.annotation.AnnotationParser.parseArray(Unknown Source) ~[na:1.8.0_251]
+	at sun.reflect.annotation.AnnotationParser.parseMemberValue(Unknown Source) ~[na:1.8.0_251]
+	at sun.reflect.annotation.AnnotationParser.parseAnnotation2(Unknown Source) ~[na:1.8.0_251]
+	at sun.reflect.annotation.AnnotationParser.parseAnnotations2(Unknown Source) ~[na:1.8.0_251]
+	at sun.reflect.annotation.AnnotationParser.parseAnnotations(Unknown Source) ~[na:1.8.0_251]
+	at java.lang.Class.createAnnotationData(Unknown Source) ~[na:1.8.0_251]
+	at java.lang.Class.annotationData(Unknown Source) ~[na:1.8.0_251]
+	at java.lang.Class.getDeclaredAnnotations(Unknown Source) ~[na:1.8.0_251]
+	at org.springframework.core.annotation.AnnotationsScanner.getDeclaredAnnotations(AnnotationsScanner.java:499) ~[spring-core-5.2.8.RELEASE.jar:5.2.8.RELEASE]
+	at org.springframework.core.annotation.AnnotationsScanner.isKnownEmpty(AnnotationsScanner.java:543) ~[spring-core-5.2.8.RELEASE.jar:5.2.8.RELEASE]
+	at org.springframework.core.annotation.TypeMappedAnnotations.from(TypeMappedAnnotations.java:251) ~[spring-core-5.2.8.RELEASE.jar:5.2.8.RELEASE]
+	at org.springframework.core.annotation.MergedAnnotations.from(MergedAnnotations.java:329) ~[spring-core-5.2.8.RELEASE.jar:5.2.8.RELEASE]
+	at org.springframework.core.type.StandardAnnotationMetadata.<init>(StandardAnnotationMetadata.java:86) ~[spring-core-5.2.8.RELEASE.jar:5.2.8.RELEASE]
+	at org.springframework.core.type.StandardAnnotationMetadata.from(StandardAnnotationMetadata.java:175) ~[spring-core-5.2.8.RELEASE.jar:5.2.8.RELEASE]
+	at org.springframework.core.type.AnnotationMetadata.introspect(AnnotationMetadata.java:127) ~[spring-core-5.2.8.RELEASE.jar:5.2.8.RELEASE]
+	at org.springframework.beans.factory.annotation.AnnotatedGenericBeanDefinition.<init>(AnnotatedGenericBeanDefinition.java:58) ~[spring-beans-5.2.8.RELEASE.jar:5.2.8.RELEASE]
+	at org.springframework.context.annotation.AnnotatedBeanDefinitionReader.doRegisterBean(AnnotatedBeanDefinitionReader.java:253) ~[spring-context-5.2.8.RELEASE.jar:5.2.8.RELEASE]
+	at org.springframework.context.annotation.AnnotatedBeanDefinitionReader.registerBean(AnnotatedBeanDefinitionReader.java:147) ~[spring-context-5.2.8.RELEASE.jar:5.2.8.RELEASE]
+	at org.springframework.context.annotation.AnnotatedBeanDefinitionReader.register(AnnotatedBeanDefinitionReader.java:137) ~[spring-context-5.2.8.RELEASE.jar:5.2.8.RELEASE]
+	at org.springframework.boot.BeanDefinitionLoader.load(BeanDefinitionLoader.java:157) ~[spring-boot-2.3.3.RELEASE.jar:2.3.3.RELEASE]
+	at org.springframework.boot.BeanDefinitionLoader.load(BeanDefinitionLoader.java:136) ~[spring-boot-2.3.3.RELEASE.jar:2.3.3.RELEASE]
+	at org.springframework.boot.BeanDefinitionLoader.load(BeanDefinitionLoader.java:128) ~[spring-boot-2.3.3.RELEASE.jar:2.3.3.RELEASE]
+	at org.springframework.boot.SpringApplication.load(SpringApplication.java:691) [spring-boot-2.3.3.RELEASE.jar:2.3.3.RELEASE]
+	at org.springframework.boot.SpringApplication.prepareContext(SpringApplication.java:392) [spring-boot-2.3.3.RELEASE.jar:2.3.3.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:314) [spring-boot-2.3.3.RELEASE.jar:2.3.3.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1237) [spring-boot-2.3.3.RELEASE.jar:2.3.3.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1226) [spring-boot-2.3.3.RELEASE.jar:2.3.3.RELEASE]
+	at com.DeptEmpUI.DeptEmpUiApplication.main(DeptEmpUiApplication.java:32) [classes/:na]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_251]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source) ~[na:1.8.0_251]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source) ~[na:1.8.0_251]
+	at java.lang.reflect.Method.invoke(Unknown Source) ~[na:1.8.0_251]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49) [spring-boot-devtools-2.3.3.RELEASE.jar:2.3.3.RELEASE]
+
+2020-09-16 10:52:11.467  INFO 10176 --- [restartedMain] com.DeptEmpUI.DeptEmpUiApplication       : No active profile set, falling back to default profiles: default
+2020-09-16 10:52:52.835  INFO 10176 --- [restartedMain] o.s.cloud.context.scope.GenericScope     : BeanFactory id=4d30078a-bfa4-34c7-a556-30f00bb6049c
+2020-09-16 10:52:54.643  INFO 10176 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$b307e22a] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-09-16 10:53:45.273  INFO 10176 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8085 (http)
+2020-09-16 10:53:45.688  INFO 10176 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-09-16 10:53:45.708  INFO 10176 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.37]
+2020-09-16 10:54:03.367  INFO 10176 --- [restartedMain] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2020-09-16 10:54:03.560  INFO 10176 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-09-16 10:54:03.560  INFO 10176 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 109469 ms
+2020-09-16 10:54:22.489  WARN 10176 --- [restartedMain] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2020-09-16 10:54:22.491  INFO 10176 --- [restartedMain] c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-09-16 10:54:37.761  INFO 10176 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-09-16 10:54:43.331  WARN 10176 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : Unable to start LiveReload server
+2020-09-16 10:56:02.692  INFO 10176 --- [restartedMain] com.DeptEmpUI.DeptEmpUiApplication       : No active profile set, falling back to default profiles: default
+2020-09-16 10:56:20.737  INFO 10176 --- [restartedMain] o.s.cloud.context.scope.GenericScope     : BeanFactory id=4d30078a-bfa4-34c7-a556-30f00bb6049c
+2020-09-16 10:56:21.580  INFO 10176 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$b307e22a] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-09-16 10:56:32.206  INFO 10176 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8085 (http)
+2020-09-16 10:56:32.598  INFO 10176 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-09-16 10:56:32.599  INFO 10176 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.37]
+2020-09-16 10:56:37.083  INFO 10176 --- [restartedMain] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2020-09-16 10:56:37.100  INFO 10176 --- [restartedMain] o.a.c.c.C.[Tomcat-1].[localhost].[/]     : Initializing Spring embedded WebApplicationContext
+2020-09-16 10:56:37.101  INFO 10176 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 34383 ms
+2020-09-16 10:56:39.195  WARN 10176 --- [restartedMain] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2020-09-16 10:56:39.196  INFO 10176 --- [restartedMain] c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-09-16 10:56:41.713  INFO 10176 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-09-16 10:56:42.920  WARN 10176 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : Unable to start LiveReload server
+2020-09-16 10:56:45.250  INFO 10176 --- [restartedMain] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2020-09-16 10:56:45.260  INFO 10176 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+2020-09-16 10:56:45.646  INFO 10176 --- [restartedMain] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON encoding codec LegacyJacksonJson
+2020-09-16 10:56:45.647  INFO 10176 --- [restartedMain] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON decoding codec LegacyJacksonJson
+2020-09-16 10:56:45.647  INFO 10176 --- [restartedMain] c.n.d.provider.DiscoveryJerseyProvider   : Using XML encoding codec XStreamXml
+2020-09-16 10:56:45.648  INFO 10176 --- [restartedMain] c.n.d.provider.DiscoveryJerseyProvider   : Using XML decoding codec XStreamXml
+2020-09-16 10:56:47.640  INFO 10176 --- [restartedMain] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2020-09-16 10:56:47.643  INFO 10176 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2020-09-16 10:56:47.643  INFO 10176 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2020-09-16 10:56:47.644  INFO 10176 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2020-09-16 10:56:47.644  INFO 10176 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Application is null : false
+2020-09-16 10:56:47.645  INFO 10176 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2020-09-16 10:56:47.645  INFO 10176 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Application version is -1: true
+2020-09-16 10:56:47.645  INFO 10176 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2020-09-16 10:56:48.163  INFO 10176 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : The response status is 200
+2020-09-16 10:56:48.202  INFO 10176 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Starting heartbeat executor: renew interval is: 30
+2020-09-16 10:56:48.386  INFO 10176 --- [restartedMain] c.n.discovery.InstanceInfoReplicator     : InstanceInfoReplicator onDemand update allowed rate per min is 4
+2020-09-16 10:56:48.430  INFO 10176 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1600234008430 with initial instances count: 2
+2020-09-16 10:56:48.451  INFO 10176 --- [restartedMain] o.s.c.n.e.s.EurekaServiceRegistry        : Registering application UI-SERVICE with eureka with status UP
+2020-09-16 10:56:48.452  INFO 10176 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1600234008452, current=UP, previous=STARTING]
+2020-09-16 10:56:48.453  INFO 10176 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_UI-SERVICE/DELL-PC:UI-service:8085: registering service...
+2020-09-16 10:56:49.399  INFO 10176 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8085 (http) with context path ''
+2020-09-16 10:56:49.400  INFO 10176 --- [restartedMain] .s.c.n.e.s.EurekaAutoServiceRegistration : Updating port to 8085
+2020-09-16 10:56:49.405  INFO 10176 --- [restartedMain] com.DeptEmpUI.DeptEmpUiApplication       : Started DeptEmpUiApplication in 51.909 seconds (JVM running for 1951.827)
+2020-09-16 10:56:49.484  INFO 10176 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2020-09-16 10:56:50.510  INFO 10176 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_UI-SERVICE/DELL-PC:UI-service:8085 - registration status: 204
+2020-09-16 10:57:40.705  INFO 10176 --- [Thread-40] o.s.c.n.e.s.EurekaServiceRegistry        : Unregistering application UI-SERVICE with eureka with status DOWN
+2020-09-16 10:57:40.706  WARN 10176 --- [Thread-40] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1600234060706, current=DOWN, previous=UP]
+2020-09-16 10:57:40.707  INFO 10176 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_UI-SERVICE/DELL-PC:UI-service:8085: registering service...
+2020-09-16 10:57:40.807  INFO 10176 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_UI-SERVICE/DELL-PC:UI-service:8085 - registration status: 204
+2020-09-16 10:57:43.343  INFO 10176 --- [restartedMain] com.DeptEmpUI.DeptEmpUiApplication       : No active profile set, falling back to default profiles: default
+2020-09-16 10:57:44.227  INFO 10176 --- [Thread-40] com.netflix.discovery.DiscoveryClient    : Unregistering ...
+2020-09-16 10:57:44.265  INFO 10176 --- [Thread-40] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_UI-SERVICE/DELL-PC:UI-service:8085 - deregister  status: 200
+2020-09-16 10:57:44.275  INFO 10176 --- [Thread-40] com.netflix.discovery.DiscoveryClient    : Completed shut down of DiscoveryClient
+2020-09-16 10:57:48.661  INFO 10176 --- [restartedMain] com.DeptEmpUI.DeptEmpUiApplication       : No active profile set, falling back to default profiles: default
+2020-09-16 10:57:50.081  INFO 10176 --- [restartedMain] o.s.cloud.context.scope.GenericScope     : BeanFactory id=4d30078a-bfa4-34c7-a556-30f00bb6049c
+2020-09-16 10:57:50.135  INFO 10176 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$b307e22a] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-09-16 10:57:53.070  INFO 10176 --- [restartedMain] o.s.cloud.context.scope.GenericScope     : BeanFactory id=4d30078a-bfa4-34c7-a556-30f00bb6049c
+2020-09-16 10:57:53.806  INFO 10176 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$b307e22a] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-09-16 10:57:58.892  INFO 10176 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8085 (http)
+2020-09-16 10:57:58.894  INFO 10176 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8085 (http)
+2020-09-16 10:57:58.963  INFO 10176 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-09-16 10:57:58.963  INFO 10176 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-09-16 10:57:58.964  INFO 10176 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.37]
+2020-09-16 10:57:58.964  INFO 10176 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.37]
+2020-09-16 10:58:01.862  INFO 10176 --- [restartedMain] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2020-09-16 10:58:01.872  INFO 10176 --- [restartedMain] o.a.c.c.C.[Tomcat-2].[localhost].[/]     : Initializing Spring embedded WebApplicationContext
+2020-09-16 10:58:01.872  INFO 10176 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 18453 ms
+2020-09-16 10:58:01.951  INFO 10176 --- [restartedMain] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2020-09-16 10:58:02.138  INFO 10176 --- [restartedMain] o.a.c.c.C.[Tomcat-1].[localhost].[/]     : Initializing Spring embedded WebApplicationContext
+2020-09-16 10:58:02.140  INFO 10176 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 13451 ms
+2020-09-16 10:58:04.489  WARN 10176 --- [restartedMain] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2020-09-16 10:58:04.491  INFO 10176 --- [restartedMain] c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-09-16 10:58:05.297  WARN 10176 --- [restartedMain] o.s.c.n.a.ArchaiusAutoConfiguration      : Netflix ConfigurationManager has already been installed, unable to re-install
+2020-09-16 10:58:05.872  INFO 10176 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-09-16 10:58:05.966  INFO 10176 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-09-16 10:58:06.558  WARN 10176 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : Unable to start LiveReload server
+2020-09-16 10:58:06.558  WARN 10176 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : Unable to start LiveReload server
+2020-09-16 10:58:10.982  INFO 10176 --- [restartedMain] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2020-09-16 10:58:10.987  INFO 10176 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+2020-09-16 10:58:10.990  INFO 10176 --- [restartedMain] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON encoding codec LegacyJacksonJson
+2020-09-16 10:58:10.991  INFO 10176 --- [restartedMain] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON decoding codec LegacyJacksonJson
+2020-09-16 10:58:10.992  INFO 10176 --- [restartedMain] c.n.d.provider.DiscoveryJerseyProvider   : Using XML encoding codec XStreamXml
+2020-09-16 10:58:10.992  INFO 10176 --- [restartedMain] c.n.d.provider.DiscoveryJerseyProvider   : Using XML decoding codec XStreamXml
+2020-09-16 10:58:13.512  INFO 10176 --- [restartedMain] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2020-09-16 10:58:13.515  INFO 10176 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2020-09-16 10:58:13.516  INFO 10176 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2020-09-16 10:58:13.517  INFO 10176 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2020-09-16 10:58:13.517  INFO 10176 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Application is null : false
+2020-09-16 10:58:13.517  INFO 10176 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2020-09-16 10:58:13.518  INFO 10176 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Application version is -1: true
+2020-09-16 10:58:13.518  INFO 10176 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2020-09-16 10:58:13.536  INFO 10176 --- [restartedMain] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2020-09-16 10:58:13.554  INFO 10176 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+2020-09-16 10:58:13.558  INFO 10176 --- [restartedMain] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON encoding codec LegacyJacksonJson
+2020-09-16 10:58:13.559  INFO 10176 --- [restartedMain] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON decoding codec LegacyJacksonJson
+2020-09-16 10:58:13.559  INFO 10176 --- [restartedMain] c.n.d.provider.DiscoveryJerseyProvider   : Using XML encoding codec XStreamXml
+2020-09-16 10:58:13.559  INFO 10176 --- [restartedMain] c.n.d.provider.DiscoveryJerseyProvider   : Using XML decoding codec XStreamXml
+2020-09-16 10:58:13.629  INFO 10176 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : The response status is 200
+2020-09-16 10:58:13.631  INFO 10176 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Starting heartbeat executor: renew interval is: 30
+2020-09-16 10:58:13.632  INFO 10176 --- [restartedMain] c.n.discovery.InstanceInfoReplicator     : InstanceInfoReplicator onDemand update allowed rate per min is 4
+2020-09-16 10:58:13.634  INFO 10176 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1600234093634 with initial instances count: 3
+2020-09-16 10:58:13.647  INFO 10176 --- [restartedMain] o.s.c.n.e.s.EurekaServiceRegistry        : Registering application UI-SERVICE with eureka with status UP
+2020-09-16 10:58:13.648  INFO 10176 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1600234093648, current=UP, previous=STARTING]
+2020-09-16 10:58:13.847  INFO 10176 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_UI-SERVICE/DELL-PC:UI-service:8085: registering service...
+2020-09-16 10:58:13.990  INFO 10176 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8085 (http) with context path ''
+2020-09-16 10:58:14.307  INFO 10176 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_UI-SERVICE/DELL-PC:UI-service:8085 - registration status: 204
+2020-09-16 10:58:14.322  INFO 10176 --- [restartedMain] .s.c.n.e.s.EurekaAutoServiceRegistration : Updating port to 8085
+2020-09-16 10:58:14.328  INFO 10176 --- [restartedMain] com.DeptEmpUI.DeptEmpUiApplication       : Started DeptEmpUiApplication in 33.526 seconds (JVM running for 2036.751)
+2020-09-16 10:58:14.330  INFO 10176 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2020-09-16 10:58:14.823  INFO 10176 --- [restartedMain] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2020-09-16 10:58:14.827  INFO 10176 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2020-09-16 10:58:14.827  INFO 10176 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2020-09-16 10:58:14.828  INFO 10176 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2020-09-16 10:58:14.828  INFO 10176 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Application is null : false
+2020-09-16 10:58:14.829  INFO 10176 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2020-09-16 10:58:14.829  INFO 10176 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Application version is -1: true
+2020-09-16 10:58:14.829  INFO 10176 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2020-09-16 10:58:14.989  INFO 10176 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : The response status is 200
+2020-09-16 10:58:14.991  INFO 10176 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Starting heartbeat executor: renew interval is: 30
+2020-09-16 10:58:14.993  INFO 10176 --- [restartedMain] c.n.discovery.InstanceInfoReplicator     : InstanceInfoReplicator onDemand update allowed rate per min is 4
+2020-09-16 10:58:14.995  INFO 10176 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1600234094995 with initial instances count: 3
+2020-09-16 10:58:15.010  INFO 10176 --- [restartedMain] o.s.c.n.e.s.EurekaServiceRegistry        : Registering application UI-SERVICE with eureka with status UP
+2020-09-16 10:58:15.011  INFO 10176 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1600234095011, current=UP, previous=STARTING]
+2020-09-16 10:58:15.023  INFO 10176 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_UI-SERVICE/DELL-PC:UI-service:8085: registering service...
+2020-09-16 10:58:15.974  WARN 10176 --- [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'; nested exception is org.springframework.boot.web.server.PortInUseException: Port 8085 is already in use
+2020-09-16 10:58:15.979  INFO 10176 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-09-16 10:58:15.980  INFO 10176 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Shutting down DiscoveryClient ...
+2020-09-16 10:58:16.200  INFO 10176 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_UI-SERVICE/DELL-PC:UI-service:8085 - registration status: 204
+2020-09-16 10:58:16.203  INFO 10176 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Unregistering ...
+2020-09-16 10:58:17.138  INFO 10176 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_UI-SERVICE/DELL-PC:UI-service:8085 - deregister  status: 200
+2020-09-16 10:58:17.157  INFO 10176 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Completed shut down of DiscoveryClient
+2020-09-16 10:58:17.158  INFO 10176 --- [restartedMain] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2020-09-16 10:58:17.170  INFO 10176 --- [restartedMain] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2020-09-16 10:58:17.178 ERROR 10176 --- [restartedMain] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8085 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8085 or configure this application to listen on another port.
+
+2020-09-16 10:58:45.231  INFO 10176 --- [DiscoveryClient-HeartbeatExecutor-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_UI-SERVICE/DELL-PC:UI-service:8085 - Re-registering apps/UI-SERVICE
+2020-09-16 10:58:45.232  INFO 10176 --- [DiscoveryClient-HeartbeatExecutor-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_UI-SERVICE/DELL-PC:UI-service:8085: registering service...
+2020-09-16 10:58:45.240  INFO 10176 --- [DiscoveryClient-HeartbeatExecutor-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_UI-SERVICE/DELL-PC:UI-service:8085 - registration status: 204
+2020-09-16 11:03:22.986  INFO 10176 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2020-09-16 11:03:29.950  INFO 10176 --- [Thread-51] o.s.c.n.e.s.EurekaServiceRegistry        : Unregistering application UI-SERVICE with eureka with status DOWN
+2020-09-16 11:03:29.997  WARN 10176 --- [Thread-51] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1600234409997, current=DOWN, previous=UP]
+2020-09-16 11:03:30.108  INFO 10176 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_UI-SERVICE/DELL-PC:UI-service:8085: registering service...
+2020-09-16 11:07:13.267  INFO 10176 --- [restartedMain] com.DeptEmpUI.DeptEmpUiApplication       : No active profile set, falling back to default profiles: default
+2020-09-16 11:07:13.327  INFO 10176 --- [restartedMain] com.DeptEmpUI.DeptEmpUiApplication       : No active profile set, falling back to default profiles: default
+2020-09-16 11:07:15.430 ERROR 10176 --- [restartedMain] o.s.boot.SpringApplication               : Application run failed
+
+java.lang.ArrayStoreException: sun.reflect.annotation.TypeNotPresentExceptionProxy
+	at sun.reflect.annotation.AnnotationParser.parseClassArray(Unknown Source) ~[na:1.8.0_251]
+	at sun.reflect.annotation.AnnotationParser.parseArray(Unknown Source) ~[na:1.8.0_251]
+	at sun.reflect.annotation.AnnotationParser.parseMemberValue(Unknown Source) ~[na:1.8.0_251]
+	at sun.reflect.annotation.AnnotationParser.parseAnnotation2(Unknown Source) ~[na:1.8.0_251]
+	at sun.reflect.annotation.AnnotationParser.parseAnnotations2(Unknown Source) ~[na:1.8.0_251]
+	at sun.reflect.annotation.AnnotationParser.parseAnnotations(Unknown Source) ~[na:1.8.0_251]
+	at java.lang.Class.createAnnotationData(Unknown Source) ~[na:1.8.0_251]
+	at java.lang.Class.annotationData(Unknown Source) ~[na:1.8.0_251]
+	at java.lang.Class.getDeclaredAnnotations(Unknown Source) ~[na:1.8.0_251]
+	at org.springframework.core.annotation.AnnotationsScanner.getDeclaredAnnotations(AnnotationsScanner.java:499) ~[spring-core-5.2.8.RELEASE.jar:5.2.8.RELEASE]
+	at org.springframework.core.annotation.AnnotationsScanner.isKnownEmpty(AnnotationsScanner.java:543) ~[spring-core-5.2.8.RELEASE.jar:5.2.8.RELEASE]
+	at org.springframework.core.annotation.TypeMappedAnnotations.from(TypeMappedAnnotations.java:251) ~[spring-core-5.2.8.RELEASE.jar:5.2.8.RELEASE]
+	at org.springframework.core.annotation.MergedAnnotations.from(MergedAnnotations.java:329) ~[spring-core-5.2.8.RELEASE.jar:5.2.8.RELEASE]
+	at org.springframework.core.type.StandardAnnotationMetadata.<init>(StandardAnnotationMetadata.java:86) ~[spring-core-5.2.8.RELEASE.jar:5.2.8.RELEASE]
+	at org.springframework.core.type.StandardAnnotationMetadata.from(StandardAnnotationMetadata.java:175) ~[spring-core-5.2.8.RELEASE.jar:5.2.8.RELEASE]
+	at org.springframework.core.type.AnnotationMetadata.introspect(AnnotationMetadata.java:127) ~[spring-core-5.2.8.RELEASE.jar:5.2.8.RELEASE]
+	at org.springframework.beans.factory.annotation.AnnotatedGenericBeanDefinition.<init>(AnnotatedGenericBeanDefinition.java:58) ~[spring-beans-5.2.8.RELEASE.jar:5.2.8.RELEASE]
+	at org.springframework.context.annotation.AnnotatedBeanDefinitionReader.doRegisterBean(AnnotatedBeanDefinitionReader.java:253) ~[spring-context-5.2.8.RELEASE.jar:5.2.8.RELEASE]
+	at org.springframework.context.annotation.AnnotatedBeanDefinitionReader.registerBean(AnnotatedBeanDefinitionReader.java:147) ~[spring-context-5.2.8.RELEASE.jar:5.2.8.RELEASE]
+	at org.springframework.context.annotation.AnnotatedBeanDefinitionReader.register(AnnotatedBeanDefinitionReader.java:137) ~[spring-context-5.2.8.RELEASE.jar:5.2.8.RELEASE]
+	at org.springframework.boot.BeanDefinitionLoader.load(BeanDefinitionLoader.java:157) ~[spring-boot-2.3.3.RELEASE.jar:2.3.3.RELEASE]
+	at org.springframework.boot.BeanDefinitionLoader.load(BeanDefinitionLoader.java:136) ~[spring-boot-2.3.3.RELEASE.jar:2.3.3.RELEASE]
+	at org.springframework.boot.BeanDefinitionLoader.load(BeanDefinitionLoader.java:128) ~[spring-boot-2.3.3.RELEASE.jar:2.3.3.RELEASE]
+	at org.springframework.boot.SpringApplication.load(SpringApplication.java:691) [spring-boot-2.3.3.RELEASE.jar:2.3.3.RELEASE]
+	at org.springframework.boot.SpringApplication.prepareContext(SpringApplication.java:392) [spring-boot-2.3.3.RELEASE.jar:2.3.3.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:314) [spring-boot-2.3.3.RELEASE.jar:2.3.3.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1237) [spring-boot-2.3.3.RELEASE.jar:2.3.3.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1226) [spring-boot-2.3.3.RELEASE.jar:2.3.3.RELEASE]
+	at com.DeptEmpUI.DeptEmpUiApplication.main(DeptEmpUiApplication.java:32) [classes/:na]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_251]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source) ~[na:1.8.0_251]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source) ~[na:1.8.0_251]
+	at java.lang.reflect.Method.invoke(Unknown Source) ~[na:1.8.0_251]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49) [spring-boot-devtools-2.3.3.RELEASE.jar:2.3.3.RELEASE]
+
+2020-09-16 11:07:15.465 ERROR 10176 --- [restartedMain] o.s.boot.SpringApplication               : Application run failed
+
+java.lang.ArrayStoreException: sun.reflect.annotation.TypeNotPresentExceptionProxy
+	at sun.reflect.annotation.AnnotationParser.parseClassArray(Unknown Source) ~[na:1.8.0_251]
+	at sun.reflect.annotation.AnnotationParser.parseArray(Unknown Source) ~[na:1.8.0_251]
+	at sun.reflect.annotation.AnnotationParser.parseMemberValue(Unknown Source) ~[na:1.8.0_251]
+	at sun.reflect.annotation.AnnotationParser.parseAnnotation2(Unknown Source) ~[na:1.8.0_251]
+	at sun.reflect.annotation.AnnotationParser.parseAnnotations2(Unknown Source) ~[na:1.8.0_251]
+	at sun.reflect.annotation.AnnotationParser.parseAnnotations(Unknown Source) ~[na:1.8.0_251]
+	at java.lang.Class.createAnnotationData(Unknown Source) ~[na:1.8.0_251]
+	at java.lang.Class.annotationData(Unknown Source) ~[na:1.8.0_251]
+	at java.lang.Class.getDeclaredAnnotations(Unknown Source) ~[na:1.8.0_251]
+	at org.springframework.core.annotation.AnnotationsScanner.getDeclaredAnnotations(AnnotationsScanner.java:499) ~[spring-core-5.2.8.RELEASE.jar:5.2.8.RELEASE]
+	at org.springframework.core.annotation.AnnotationsScanner.isKnownEmpty(AnnotationsScanner.java:543) ~[spring-core-5.2.8.RELEASE.jar:5.2.8.RELEASE]
+	at org.springframework.core.annotation.TypeMappedAnnotations.from(TypeMappedAnnotations.java:251) ~[spring-core-5.2.8.RELEASE.jar:5.2.8.RELEASE]
+	at org.springframework.core.annotation.MergedAnnotations.from(MergedAnnotations.java:329) ~[spring-core-5.2.8.RELEASE.jar:5.2.8.RELEASE]
+	at org.springframework.core.type.StandardAnnotationMetadata.<init>(StandardAnnotationMetadata.java:86) ~[spring-core-5.2.8.RELEASE.jar:5.2.8.RELEASE]
+	at org.springframework.core.type.StandardAnnotationMetadata.from(StandardAnnotationMetadata.java:175) ~[spring-core-5.2.8.RELEASE.jar:5.2.8.RELEASE]
+	at org.springframework.core.type.AnnotationMetadata.introspect(AnnotationMetadata.java:127) ~[spring-core-5.2.8.RELEASE.jar:5.2.8.RELEASE]
+	at org.springframework.beans.factory.annotation.AnnotatedGenericBeanDefinition.<init>(AnnotatedGenericBeanDefinition.java:58) ~[spring-beans-5.2.8.RELEASE.jar:5.2.8.RELEASE]
+	at org.springframework.context.annotation.AnnotatedBeanDefinitionReader.doRegisterBean(AnnotatedBeanDefinitionReader.java:253) ~[spring-context-5.2.8.RELEASE.jar:5.2.8.RELEASE]
+	at org.springframework.context.annotation.AnnotatedBeanDefinitionReader.registerBean(AnnotatedBeanDefinitionReader.java:147) ~[spring-context-5.2.8.RELEASE.jar:5.2.8.RELEASE]
+	at org.springframework.context.annotation.AnnotatedBeanDefinitionReader.register(AnnotatedBeanDefinitionReader.java:137) ~[spring-context-5.2.8.RELEASE.jar:5.2.8.RELEASE]
+	at org.springframework.boot.BeanDefinitionLoader.load(BeanDefinitionLoader.java:157) ~[spring-boot-2.3.3.RELEASE.jar:2.3.3.RELEASE]
+	at org.springframework.boot.BeanDefinitionLoader.load(BeanDefinitionLoader.java:136) ~[spring-boot-2.3.3.RELEASE.jar:2.3.3.RELEASE]
+	at org.springframework.boot.BeanDefinitionLoader.load(BeanDefinitionLoader.java:128) ~[spring-boot-2.3.3.RELEASE.jar:2.3.3.RELEASE]
+	at org.springframework.boot.SpringApplication.load(SpringApplication.java:691) [spring-boot-2.3.3.RELEASE.jar:2.3.3.RELEASE]
+	at org.springframework.boot.SpringApplication.prepareContext(SpringApplication.java:392) [spring-boot-2.3.3.RELEASE.jar:2.3.3.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:314) [spring-boot-2.3.3.RELEASE.jar:2.3.3.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1237) [spring-boot-2.3.3.RELEASE.jar:2.3.3.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1226) [spring-boot-2.3.3.RELEASE.jar:2.3.3.RELEASE]
+	at com.DeptEmpUI.DeptEmpUiApplication.main(DeptEmpUiApplication.java:32) [classes/:na]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_251]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source) ~[na:1.8.0_251]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source) ~[na:1.8.0_251]
+	at java.lang.reflect.Method.invoke(Unknown Source) ~[na:1.8.0_251]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49) [spring-boot-devtools-2.3.3.RELEASE.jar:2.3.3.RELEASE]
+
+2020-09-16 11:09:48.770  INFO 10176 --- [restartedMain] com.DeptEmpUI.DeptEmpUiApplication       : No active profile set, falling back to default profiles: default
+2020-09-16 11:09:48.861 ERROR 10176 --- [restartedMain] o.s.boot.SpringApplication               : Application run failed
+
+java.lang.ArrayStoreException: sun.reflect.annotation.TypeNotPresentExceptionProxy
+	at sun.reflect.annotation.AnnotationParser.parseClassArray(Unknown Source) ~[na:1.8.0_251]
+	at sun.reflect.annotation.AnnotationParser.parseArray(Unknown Source) ~[na:1.8.0_251]
+	at sun.reflect.annotation.AnnotationParser.parseMemberValue(Unknown Source) ~[na:1.8.0_251]
+	at sun.reflect.annotation.AnnotationParser.parseAnnotation2(Unknown Source) ~[na:1.8.0_251]
+	at sun.reflect.annotation.AnnotationParser.parseAnnotations2(Unknown Source) ~[na:1.8.0_251]
+	at sun.reflect.annotation.AnnotationParser.parseAnnotations(Unknown Source) ~[na:1.8.0_251]
+	at java.lang.Class.createAnnotationData(Unknown Source) ~[na:1.8.0_251]
+	at java.lang.Class.annotationData(Unknown Source) ~[na:1.8.0_251]
+	at java.lang.Class.getDeclaredAnnotations(Unknown Source) ~[na:1.8.0_251]
+	at org.springframework.core.annotation.AnnotationsScanner.getDeclaredAnnotations(AnnotationsScanner.java:499) ~[spring-core-5.2.8.RELEASE.jar:5.2.8.RELEASE]
+	at org.springframework.core.annotation.AnnotationsScanner.isKnownEmpty(AnnotationsScanner.java:543) ~[spring-core-5.2.8.RELEASE.jar:5.2.8.RELEASE]
+	at org.springframework.core.annotation.TypeMappedAnnotations.from(TypeMappedAnnotations.java:251) ~[spring-core-5.2.8.RELEASE.jar:5.2.8.RELEASE]
+	at org.springframework.core.annotation.MergedAnnotations.from(MergedAnnotations.java:329) ~[spring-core-5.2.8.RELEASE.jar:5.2.8.RELEASE]
+	at org.springframework.core.type.StandardAnnotationMetadata.<init>(StandardAnnotationMetadata.java:86) ~[spring-core-5.2.8.RELEASE.jar:5.2.8.RELEASE]
+	at org.springframework.core.type.StandardAnnotationMetadata.from(StandardAnnotationMetadata.java:175) ~[spring-core-5.2.8.RELEASE.jar:5.2.8.RELEASE]
+	at org.springframework.core.type.AnnotationMetadata.introspect(AnnotationMetadata.java:127) ~[spring-core-5.2.8.RELEASE.jar:5.2.8.RELEASE]
+	at org.springframework.beans.factory.annotation.AnnotatedGenericBeanDefinition.<init>(AnnotatedGenericBeanDefinition.java:58) ~[spring-beans-5.2.8.RELEASE.jar:5.2.8.RELEASE]
+	at org.springframework.context.annotation.AnnotatedBeanDefinitionReader.doRegisterBean(AnnotatedBeanDefinitionReader.java:253) ~[spring-context-5.2.8.RELEASE.jar:5.2.8.RELEASE]
+	at org.springframework.context.annotation.AnnotatedBeanDefinitionReader.registerBean(AnnotatedBeanDefinitionReader.java:147) ~[spring-context-5.2.8.RELEASE.jar:5.2.8.RELEASE]
+	at org.springframework.context.annotation.AnnotatedBeanDefinitionReader.register(AnnotatedBeanDefinitionReader.java:137) ~[spring-context-5.2.8.RELEASE.jar:5.2.8.RELEASE]
+	at org.springframework.boot.BeanDefinitionLoader.load(BeanDefinitionLoader.java:157) ~[spring-boot-2.3.3.RELEASE.jar:2.3.3.RELEASE]
+	at org.springframework.boot.BeanDefinitionLoader.load(BeanDefinitionLoader.java:136) ~[spring-boot-2.3.3.RELEASE.jar:2.3.3.RELEASE]
+	at org.springframework.boot.BeanDefinitionLoader.load(BeanDefinitionLoader.java:128) ~[spring-boot-2.3.3.RELEASE.jar:2.3.3.RELEASE]
+	at org.springframework.boot.SpringApplication.load(SpringApplication.java:691) [spring-boot-2.3.3.RELEASE.jar:2.3.3.RELEASE]
+	at org.springframework.boot.SpringApplication.prepareContext(SpringApplication.java:392) [spring-boot-2.3.3.RELEASE.jar:2.3.3.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:314) [spring-boot-2.3.3.RELEASE.jar:2.3.3.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1237) [spring-boot-2.3.3.RELEASE.jar:2.3.3.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1226) [spring-boot-2.3.3.RELEASE.jar:2.3.3.RELEASE]
+	at com.DeptEmpUI.DeptEmpUiApplication.main(DeptEmpUiApplication.java:32) [classes/:na]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_251]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source) ~[na:1.8.0_251]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source) ~[na:1.8.0_251]
+	at java.lang.reflect.Method.invoke(Unknown Source) ~[na:1.8.0_251]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49) [spring-boot-devtools-2.3.3.RELEASE.jar:2.3.3.RELEASE]
+
+2020-09-16 11:09:48.871  INFO 10176 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-09-16 11:09:49.381  INFO 10176 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-09-16 11:09:49.500  INFO 10176 --- [restartedMain] com.DeptEmpUI.DeptEmpUiApplication       : No active profile set, falling back to default profiles: default
+2020-09-16 11:09:49.587 ERROR 10176 --- [restartedMain] o.s.boot.SpringApplication               : Application run failed
+
+java.lang.ArrayStoreException: sun.reflect.annotation.TypeNotPresentExceptionProxy
+	at sun.reflect.annotation.AnnotationParser.parseClassArray(Unknown Source) ~[na:1.8.0_251]
+	at sun.reflect.annotation.AnnotationParser.parseArray(Unknown Source) ~[na:1.8.0_251]
+	at sun.reflect.annotation.AnnotationParser.parseMemberValue(Unknown Source) ~[na:1.8.0_251]
+	at sun.reflect.annotation.AnnotationParser.parseAnnotation2(Unknown Source) ~[na:1.8.0_251]
+	at sun.reflect.annotation.AnnotationParser.parseAnnotations2(Unknown Source) ~[na:1.8.0_251]
+	at sun.reflect.annotation.AnnotationParser.parseAnnotations(Unknown Source) ~[na:1.8.0_251]
+	at java.lang.Class.createAnnotationData(Unknown Source) ~[na:1.8.0_251]
+	at java.lang.Class.annotationData(Unknown Source) ~[na:1.8.0_251]
+	at java.lang.Class.getDeclaredAnnotations(Unknown Source) ~[na:1.8.0_251]
+	at org.springframework.core.annotation.AnnotationsScanner.getDeclaredAnnotations(AnnotationsScanner.java:499) ~[spring-core-5.2.8.RELEASE.jar:5.2.8.RELEASE]
+	at org.springframework.core.annotation.AnnotationsScanner.isKnownEmpty(AnnotationsScanner.java:543) ~[spring-core-5.2.8.RELEASE.jar:5.2.8.RELEASE]
+	at org.springframework.core.annotation.TypeMappedAnnotations.from(TypeMappedAnnotations.java:251) ~[spring-core-5.2.8.RELEASE.jar:5.2.8.RELEASE]
+	at org.springframework.core.annotation.MergedAnnotations.from(MergedAnnotations.java:329) ~[spring-core-5.2.8.RELEASE.jar:5.2.8.RELEASE]
+	at org.springframework.core.type.StandardAnnotationMetadata.<init>(StandardAnnotationMetadata.java:86) ~[spring-core-5.2.8.RELEASE.jar:5.2.8.RELEASE]
+	at org.springframework.core.type.StandardAnnotationMetadata.from(StandardAnnotationMetadata.java:175) ~[spring-core-5.2.8.RELEASE.jar:5.2.8.RELEASE]
+	at org.springframework.core.type.AnnotationMetadata.introspect(AnnotationMetadata.java:127) ~[spring-core-5.2.8.RELEASE.jar:5.2.8.RELEASE]
+	at org.springframework.beans.factory.annotation.AnnotatedGenericBeanDefinition.<init>(AnnotatedGenericBeanDefinition.java:58) ~[spring-beans-5.2.8.RELEASE.jar:5.2.8.RELEASE]
+	at org.springframework.context.annotation.AnnotatedBeanDefinitionReader.doRegisterBean(AnnotatedBeanDefinitionReader.java:253) ~[spring-context-5.2.8.RELEASE.jar:5.2.8.RELEASE]
+	at org.springframework.context.annotation.AnnotatedBeanDefinitionReader.registerBean(AnnotatedBeanDefinitionReader.java:147) ~[spring-context-5.2.8.RELEASE.jar:5.2.8.RELEASE]
+	at org.springframework.context.annotation.AnnotatedBeanDefinitionReader.register(AnnotatedBeanDefinitionReader.java:137) ~[spring-context-5.2.8.RELEASE.jar:5.2.8.RELEASE]
+	at org.springframework.boot.BeanDefinitionLoader.load(BeanDefinitionLoader.java:157) ~[spring-boot-2.3.3.RELEASE.jar:2.3.3.RELEASE]
+	at org.springframework.boot.BeanDefinitionLoader.load(BeanDefinitionLoader.java:136) ~[spring-boot-2.3.3.RELEASE.jar:2.3.3.RELEASE]
+	at org.springframework.boot.BeanDefinitionLoader.load(BeanDefinitionLoader.java:128) ~[spring-boot-2.3.3.RELEASE.jar:2.3.3.RELEASE]
+	at org.springframework.boot.SpringApplication.load(SpringApplication.java:691) [spring-boot-2.3.3.RELEASE.jar:2.3.3.RELEASE]
+	at org.springframework.boot.SpringApplication.prepareContext(SpringApplication.java:392) [spring-boot-2.3.3.RELEASE.jar:2.3.3.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:314) [spring-boot-2.3.3.RELEASE.jar:2.3.3.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1237) [spring-boot-2.3.3.RELEASE.jar:2.3.3.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1226) [spring-boot-2.3.3.RELEASE.jar:2.3.3.RELEASE]
+	at com.DeptEmpUI.DeptEmpUiApplication.main(DeptEmpUiApplication.java:32) [classes/:na]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_251]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source) ~[na:1.8.0_251]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source) ~[na:1.8.0_251]
+	at java.lang.reflect.Method.invoke(Unknown Source) ~[na:1.8.0_251]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49) [spring-boot-devtools-2.3.3.RELEASE.jar:2.3.3.RELEASE]
+
+2020-09-16 11:11:49.938  INFO 10176 --- [restartedMain] com.DeptEmpUI.DeptEmpUiApplication       : No active profile set, falling back to default profiles: default
+2020-09-16 11:11:50.257 ERROR 10176 --- [restartedMain] o.s.boot.SpringApplication               : Application run failed
+
+java.lang.ArrayStoreException: sun.reflect.annotation.TypeNotPresentExceptionProxy
+	at sun.reflect.annotation.AnnotationParser.parseClassArray(Unknown Source) ~[na:1.8.0_251]
+	at sun.reflect.annotation.AnnotationParser.parseArray(Unknown Source) ~[na:1.8.0_251]
+	at sun.reflect.annotation.AnnotationParser.parseMemberValue(Unknown Source) ~[na:1.8.0_251]
+	at sun.reflect.annotation.AnnotationParser.parseAnnotation2(Unknown Source) ~[na:1.8.0_251]
+	at sun.reflect.annotation.AnnotationParser.parseAnnotations2(Unknown Source) ~[na:1.8.0_251]
+	at sun.reflect.annotation.AnnotationParser.parseAnnotations(Unknown Source) ~[na:1.8.0_251]
+	at java.lang.Class.createAnnotationData(Unknown Source) ~[na:1.8.0_251]
+	at java.lang.Class.annotationData(Unknown Source) ~[na:1.8.0_251]
+	at java.lang.Class.getDeclaredAnnotations(Unknown Source) ~[na:1.8.0_251]
+	at org.springframework.core.annotation.AnnotationsScanner.getDeclaredAnnotations(AnnotationsScanner.java:499) ~[spring-core-5.2.8.RELEASE.jar:5.2.8.RELEASE]
+	at org.springframework.core.annotation.AnnotationsScanner.isKnownEmpty(AnnotationsScanner.java:543) ~[spring-core-5.2.8.RELEASE.jar:5.2.8.RELEASE]
+	at org.springframework.core.annotation.TypeMappedAnnotations.from(TypeMappedAnnotations.java:251) ~[spring-core-5.2.8.RELEASE.jar:5.2.8.RELEASE]
+	at org.springframework.core.annotation.MergedAnnotations.from(MergedAnnotations.java:329) ~[spring-core-5.2.8.RELEASE.jar:5.2.8.RELEASE]
+	at org.springframework.core.type.StandardAnnotationMetadata.<init>(StandardAnnotationMetadata.java:86) ~[spring-core-5.2.8.RELEASE.jar:5.2.8.RELEASE]
+	at org.springframework.core.type.StandardAnnotationMetadata.from(StandardAnnotationMetadata.java:175) ~[spring-core-5.2.8.RELEASE.jar:5.2.8.RELEASE]
+	at org.springframework.core.type.AnnotationMetadata.introspect(AnnotationMetadata.java:127) ~[spring-core-5.2.8.RELEASE.jar:5.2.8.RELEASE]
+	at org.springframework.beans.factory.annotation.AnnotatedGenericBeanDefinition.<init>(AnnotatedGenericBeanDefinition.java:58) ~[spring-beans-5.2.8.RELEASE.jar:5.2.8.RELEASE]
+	at org.springframework.context.annotation.AnnotatedBeanDefinitionReader.doRegisterBean(AnnotatedBeanDefinitionReader.java:253) ~[spring-context-5.2.8.RELEASE.jar:5.2.8.RELEASE]
+	at org.springframework.context.annotation.AnnotatedBeanDefinitionReader.registerBean(AnnotatedBeanDefinitionReader.java:147) ~[spring-context-5.2.8.RELEASE.jar:5.2.8.RELEASE]
+	at org.springframework.context.annotation.AnnotatedBeanDefinitionReader.register(AnnotatedBeanDefinitionReader.java:137) ~[spring-context-5.2.8.RELEASE.jar:5.2.8.RELEASE]
+	at org.springframework.boot.BeanDefinitionLoader.load(BeanDefinitionLoader.java:157) ~[spring-boot-2.3.3.RELEASE.jar:2.3.3.RELEASE]
+	at org.springframework.boot.BeanDefinitionLoader.load(BeanDefinitionLoader.java:136) ~[spring-boot-2.3.3.RELEASE.jar:2.3.3.RELEASE]
+	at org.springframework.boot.BeanDefinitionLoader.load(BeanDefinitionLoader.java:128) ~[spring-boot-2.3.3.RELEASE.jar:2.3.3.RELEASE]
+	at org.springframework.boot.SpringApplication.load(SpringApplication.java:691) [spring-boot-2.3.3.RELEASE.jar:2.3.3.RELEASE]
+	at org.springframework.boot.SpringApplication.prepareContext(SpringApplication.java:392) [spring-boot-2.3.3.RELEASE.jar:2.3.3.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:314) [spring-boot-2.3.3.RELEASE.jar:2.3.3.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1237) [spring-boot-2.3.3.RELEASE.jar:2.3.3.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1226) [spring-boot-2.3.3.RELEASE.jar:2.3.3.RELEASE]
+	at com.DeptEmpUI.DeptEmpUiApplication.main(DeptEmpUiApplication.java:32) [classes/:na]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_251]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source) ~[na:1.8.0_251]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source) ~[na:1.8.0_251]
+	at java.lang.reflect.Method.invoke(Unknown Source) ~[na:1.8.0_251]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49) [spring-boot-devtools-2.3.3.RELEASE.jar:2.3.3.RELEASE]
+
+2020-09-16 11:11:51.960  INFO 10176 --- [restartedMain] com.DeptEmpUI.DeptEmpUiApplication       : No active profile set, falling back to default profiles: default
+2020-09-16 11:11:52.607 ERROR 10176 --- [restartedMain] o.s.boot.SpringApplication               : Application run failed
+
+java.lang.ArrayStoreException: sun.reflect.annotation.TypeNotPresentExceptionProxy
+	at sun.reflect.annotation.AnnotationParser.parseClassArray(Unknown Source) ~[na:1.8.0_251]
+	at sun.reflect.annotation.AnnotationParser.parseArray(Unknown Source) ~[na:1.8.0_251]
+	at sun.reflect.annotation.AnnotationParser.parseMemberValue(Unknown Source) ~[na:1.8.0_251]
+	at sun.reflect.annotation.AnnotationParser.parseAnnotation2(Unknown Source) ~[na:1.8.0_251]
+	at sun.reflect.annotation.AnnotationParser.parseAnnotations2(Unknown Source) ~[na:1.8.0_251]
+	at sun.reflect.annotation.AnnotationParser.parseAnnotations(Unknown Source) ~[na:1.8.0_251]
+	at java.lang.Class.createAnnotationData(Unknown Source) ~[na:1.8.0_251]
+	at java.lang.Class.annotationData(Unknown Source) ~[na:1.8.0_251]
+	at java.lang.Class.getDeclaredAnnotations(Unknown Source) ~[na:1.8.0_251]
+	at org.springframework.core.annotation.AnnotationsScanner.getDeclaredAnnotations(AnnotationsScanner.java:499) ~[spring-core-5.2.8.RELEASE.jar:5.2.8.RELEASE]
+	at org.springframework.core.annotation.AnnotationsScanner.isKnownEmpty(AnnotationsScanner.java:543) ~[spring-core-5.2.8.RELEASE.jar:5.2.8.RELEASE]
+	at org.springframework.core.annotation.TypeMappedAnnotations.from(TypeMappedAnnotations.java:251) ~[spring-core-5.2.8.RELEASE.jar:5.2.8.RELEASE]
+	at org.springframework.core.annotation.MergedAnnotations.from(MergedAnnotations.java:329) ~[spring-core-5.2.8.RELEASE.jar:5.2.8.RELEASE]
+	at org.springframework.core.type.StandardAnnotationMetadata.<init>(StandardAnnotationMetadata.java:86) ~[spring-core-5.2.8.RELEASE.jar:5.2.8.RELEASE]
+	at org.springframework.core.type.StandardAnnotationMetadata.from(StandardAnnotationMetadata.java:175) ~[spring-core-5.2.8.RELEASE.jar:5.2.8.RELEASE]
+	at org.springframework.core.type.AnnotationMetadata.introspect(AnnotationMetadata.java:127) ~[spring-core-5.2.8.RELEASE.jar:5.2.8.RELEASE]
+	at org.springframework.beans.factory.annotation.AnnotatedGenericBeanDefinition.<init>(AnnotatedGenericBeanDefinition.java:58) ~[spring-beans-5.2.8.RELEASE.jar:5.2.8.RELEASE]
+	at org.springframework.context.annotation.AnnotatedBeanDefinitionReader.doRegisterBean(AnnotatedBeanDefinitionReader.java:253) ~[spring-context-5.2.8.RELEASE.jar:5.2.8.RELEASE]
+	at org.springframework.context.annotation.AnnotatedBeanDefinitionReader.registerBean(AnnotatedBeanDefinitionReader.java:147) ~[spring-context-5.2.8.RELEASE.jar:5.2.8.RELEASE]
+	at org.springframework.context.annotation.AnnotatedBeanDefinitionReader.register(AnnotatedBeanDefinitionReader.java:137) ~[spring-context-5.2.8.RELEASE.jar:5.2.8.RELEASE]
+	at org.springframework.boot.BeanDefinitionLoader.load(BeanDefinitionLoader.java:157) ~[spring-boot-2.3.3.RELEASE.jar:2.3.3.RELEASE]
+	at org.springframework.boot.BeanDefinitionLoader.load(BeanDefinitionLoader.java:136) ~[spring-boot-2.3.3.RELEASE.jar:2.3.3.RELEASE]
+	at org.springframework.boot.BeanDefinitionLoader.load(BeanDefinitionLoader.java:128) ~[spring-boot-2.3.3.RELEASE.jar:2.3.3.RELEASE]
+	at org.springframework.boot.SpringApplication.load(SpringApplication.java:691) [spring-boot-2.3.3.RELEASE.jar:2.3.3.RELEASE]
+	at org.springframework.boot.SpringApplication.prepareContext(SpringApplication.java:392) [spring-boot-2.3.3.RELEASE.jar:2.3.3.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:314) [spring-boot-2.3.3.RELEASE.jar:2.3.3.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1237) [spring-boot-2.3.3.RELEASE.jar:2.3.3.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1226) [spring-boot-2.3.3.RELEASE.jar:2.3.3.RELEASE]
+	at com.DeptEmpUI.DeptEmpUiApplication.main(DeptEmpUiApplication.java:32) [classes/:na]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_251]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source) ~[na:1.8.0_251]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source) ~[na:1.8.0_251]
+	at java.lang.reflect.Method.invoke(Unknown Source) ~[na:1.8.0_251]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49) [spring-boot-devtools-2.3.3.RELEASE.jar:2.3.3.RELEASE]
+
+2020-09-16 11:12:25.800  INFO 10176 --- [restartedMain] com.DeptEmpUI.DeptEmpUiApplication       : No active profile set, falling back to default profiles: default
+2020-09-16 11:12:26.236 ERROR 10176 --- [restartedMain] o.s.boot.SpringApplication               : Application run failed
+
+java.lang.ArrayStoreException: sun.reflect.annotation.TypeNotPresentExceptionProxy
+	at sun.reflect.annotation.AnnotationParser.parseClassArray(Unknown Source) ~[na:1.8.0_251]
+	at sun.reflect.annotation.AnnotationParser.parseArray(Unknown Source) ~[na:1.8.0_251]
+	at sun.reflect.annotation.AnnotationParser.parseMemberValue(Unknown Source) ~[na:1.8.0_251]
+	at sun.reflect.annotation.AnnotationParser.parseAnnotation2(Unknown Source) ~[na:1.8.0_251]
+	at sun.reflect.annotation.AnnotationParser.parseAnnotations2(Unknown Source) ~[na:1.8.0_251]
+	at sun.reflect.annotation.AnnotationParser.parseAnnotations(Unknown Source) ~[na:1.8.0_251]
+	at java.lang.Class.createAnnotationData(Unknown Source) ~[na:1.8.0_251]
+	at java.lang.Class.annotationData(Unknown Source) ~[na:1.8.0_251]
+	at java.lang.Class.getDeclaredAnnotations(Unknown Source) ~[na:1.8.0_251]
+	at org.springframework.core.annotation.AnnotationsScanner.getDeclaredAnnotations(AnnotationsScanner.java:499) ~[spring-core-5.2.8.RELEASE.jar:5.2.8.RELEASE]
+	at org.springframework.core.annotation.AnnotationsScanner.isKnownEmpty(AnnotationsScanner.java:543) ~[spring-core-5.2.8.RELEASE.jar:5.2.8.RELEASE]
+	at org.springframework.core.annotation.TypeMappedAnnotations.from(TypeMappedAnnotations.java:251) ~[spring-core-5.2.8.RELEASE.jar:5.2.8.RELEASE]
+	at org.springframework.core.annotation.MergedAnnotations.from(MergedAnnotations.java:329) ~[spring-core-5.2.8.RELEASE.jar:5.2.8.RELEASE]
+	at org.springframework.core.type.StandardAnnotationMetadata.<init>(StandardAnnotationMetadata.java:86) ~[spring-core-5.2.8.RELEASE.jar:5.2.8.RELEASE]
+	at org.springframework.core.type.StandardAnnotationMetadata.from(StandardAnnotationMetadata.java:175) ~[spring-core-5.2.8.RELEASE.jar:5.2.8.RELEASE]
+	at org.springframework.core.type.AnnotationMetadata.introspect(AnnotationMetadata.java:127) ~[spring-core-5.2.8.RELEASE.jar:5.2.8.RELEASE]
+	at org.springframework.beans.factory.annotation.AnnotatedGenericBeanDefinition.<init>(AnnotatedGenericBeanDefinition.java:58) ~[spring-beans-5.2.8.RELEASE.jar:5.2.8.RELEASE]
+	at org.springframework.context.annotation.AnnotatedBeanDefinitionReader.doRegisterBean(AnnotatedBeanDefinitionReader.java:253) ~[spring-context-5.2.8.RELEASE.jar:5.2.8.RELEASE]
+	at org.springframework.context.annotation.AnnotatedBeanDefinitionReader.registerBean(AnnotatedBeanDefinitionReader.java:147) ~[spring-context-5.2.8.RELEASE.jar:5.2.8.RELEASE]
+	at org.springframework.context.annotation.AnnotatedBeanDefinitionReader.register(AnnotatedBeanDefinitionReader.java:137) ~[spring-context-5.2.8.RELEASE.jar:5.2.8.RELEASE]
+	at org.springframework.boot.BeanDefinitionLoader.load(BeanDefinitionLoader.java:157) ~[spring-boot-2.3.3.RELEASE.jar:2.3.3.RELEASE]
+	at org.springframework.boot.BeanDefinitionLoader.load(BeanDefinitionLoader.java:136) ~[spring-boot-2.3.3.RELEASE.jar:2.3.3.RELEASE]
+	at org.springframework.boot.BeanDefinitionLoader.load(BeanDefinitionLoader.java:128) ~[spring-boot-2.3.3.RELEASE.jar:2.3.3.RELEASE]
+	at org.springframework.boot.SpringApplication.load(SpringApplication.java:691) [spring-boot-2.3.3.RELEASE.jar:2.3.3.RELEASE]
+	at org.springframework.boot.SpringApplication.prepareContext(SpringApplication.java:392) [spring-boot-2.3.3.RELEASE.jar:2.3.3.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:314) [spring-boot-2.3.3.RELEASE.jar:2.3.3.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1237) [spring-boot-2.3.3.RELEASE.jar:2.3.3.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1226) [spring-boot-2.3.3.RELEASE.jar:2.3.3.RELEASE]
+	at com.DeptEmpUI.DeptEmpUiApplication.main(DeptEmpUiApplication.java:32) [classes/:na]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_251]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source) ~[na:1.8.0_251]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source) ~[na:1.8.0_251]
+	at java.lang.reflect.Method.invoke(Unknown Source) ~[na:1.8.0_251]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49) [spring-boot-devtools-2.3.3.RELEASE.jar:2.3.3.RELEASE]
+
+2020-09-16 11:12:26.471  INFO 10176 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-09-16 11:12:26.534  INFO 10176 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-09-16 11:12:27.904  INFO 10176 --- [restartedMain] com.DeptEmpUI.DeptEmpUiApplication       : No active profile set, falling back to default profiles: default
+2020-09-16 11:12:28.233 ERROR 10176 --- [restartedMain] o.s.boot.SpringApplication               : Application run failed
+
+java.lang.ArrayStoreException: null
+
+2020-09-16 11:13:45.988  INFO 10176 --- [restartedMain] com.DeptEmpUI.DeptEmpUiApplication       : No active profile set, falling back to default profiles: default
+%PARSER_ERROR[wEx]2020-09-16 11:13:46.000  INFO 10176 --- [restartedMain] com.DeptEmpUI.DeptEmpUiApplication       : No active profile set, falling back to default profiles: default
+%PARSER_ERROR[wEx]2020-09-16 11:13:47.078 ERROR 10176 --- [restartedMain] o.s.boot.SpringApplication               : Application run failed
+%PARSER_ERROR[wEx]java.lang.ArrayStoreException: null
+2020-09-16 11:13:47.054 ERROR 10176 --- [restartedMain] o.s.boot.SpringApplication               : Application run failed
+%PARSER_ERROR[wEx]java.lang.ArrayStoreException: null
+2020-09-16 11:14:16.901  INFO 10176 --- [restartedMain] com.DeptEmpUI.DeptEmpUiApplication       : No active profile set, falling back to default profiles: default
+2020-09-16 11:14:17.522 ERROR 10176 --- [restartedMain] o.s.boot.SpringApplication               : Application run failed
+
+java.lang.ArrayStoreException: null
+
+2020-09-16 11:14:17.460  INFO 10176 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-09-16 11:14:18.159  INFO 10176 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-09-16 11:14:18.250  INFO 10176 --- [restartedMain] com.DeptEmpUI.DeptEmpUiApplication       : No active profile set, falling back to default profiles: default
+2020-09-16 11:14:18.300 ERROR 10176 --- [restartedMain] o.s.boot.SpringApplication               : Application run failed
+
+java.lang.ArrayStoreException: null
+
+2020-09-16 11:32:19.347  INFO 10176 --- [restartedMain] com.DeptEmpUI.DeptEmpUiApplication       : No active profile set, falling back to default profiles: default
+%PARSER_ERROR[wEx]2020-09-16 11:32:19.515  INFO 10176 --- [restartedMain] com.DeptEmpUI.DeptEmpUiApplication       : No active profile set, falling back to default profiles: default
+%PARSER_ERROR[wEx]2020-09-16 11:32:26.426 ERROR 10176 --- [restartedMain] o.s.boot.SpringApplication               : Application run failed
+%PARSER_ERROR[wEx]java.lang.ArrayStoreException: null
+2020-09-16 11:32:26.426 ERROR 10176 --- [restartedMain] o.s.boot.SpringApplication               : Application run failed
+%PARSER_ERROR[wEx]java.lang.ArrayStoreException: null
+2020-09-16 11:37:27.851  INFO 10176 --- [restartedMain] com.DeptEmpUI.DeptEmpUiApplication       : No active profile set, falling back to default profiles: default
+2020-09-16 11:37:27.956  INFO 10176 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-09-16 11:37:28.650  INFO 10176 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-09-16 11:37:28.783  INFO 10176 --- [restartedMain] com.DeptEmpUI.DeptEmpUiApplication       : No active profile set, falling back to default profiles: default
+2020-09-16 11:37:29.191  WARN 10176 --- [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanDefinitionStoreException: Failed to process import candidates for configuration class [com.DeptEmpUI.DeptEmpUiApplication]; nested exception is java.lang.IllegalStateException: Failed to introspect annotated methods on class com.AOPLogging.aspects.Logging
+2020-09-16 11:37:29.196 ERROR 10176 --- [restartedMain] o.s.boot.SpringApplication               : Application run failed
+
+org.springframework.beans.factory.BeanDefinitionStoreException: Failed to process import candidates for configuration class [com.DeptEmpUI.DeptEmpUiApplication]; nested exception is java.lang.IllegalStateException: Failed to introspect annotated methods on class com.AOPLogging.aspects.Logging
+	at org.springframework.context.annotation.ConfigurationClassParser.processImports(ConfigurationClassParser.java:609) ~[spring-context-5.2.8.RELEASE.jar:5.2.8.RELEASE]
+	at org.springframework.context.annotation.ConfigurationClassParser.doProcessConfigurationClass(ConfigurationClassParser.java:310) ~[spring-context-5.2.8.RELEASE.jar:5.2.8.RELEASE]
+	at org.springframework.context.annotation.ConfigurationClassParser.processConfigurationClass(ConfigurationClassParser.java:249) ~[spring-context-5.2.8.RELEASE.jar:5.2.8.RELEASE]
+	at org.springframework.context.annotation.ConfigurationClassParser.parse(ConfigurationClassParser.java:206) ~[spring-context-5.2.8.RELEASE.jar:5.2.8.RELEASE]
+	at org.springframework.context.annotation.ConfigurationClassParser.parse(ConfigurationClassParser.java:174) ~[spring-context-5.2.8.RELEASE.jar:5.2.8.RELEASE]
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.processConfigBeanDefinitions(ConfigurationClassPostProcessor.java:319) ~[spring-context-5.2.8.RELEASE.jar:5.2.8.RELEASE]
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.postProcessBeanDefinitionRegistry(ConfigurationClassPostProcessor.java:236) ~[spring-context-5.2.8.RELEASE.jar:5.2.8.RELEASE]
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanDefinitionRegistryPostProcessors(PostProcessorRegistrationDelegate.java:280) ~[spring-context-5.2.8.RELEASE.jar:5.2.8.RELEASE]
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanFactoryPostProcessors(PostProcessorRegistrationDelegate.java:96) ~[spring-context-5.2.8.RELEASE.jar:5.2.8.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.invokeBeanFactoryPostProcessors(AbstractApplicationContext.java:707) ~[spring-context-5.2.8.RELEASE.jar:5.2.8.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:533) ~[spring-context-5.2.8.RELEASE.jar:5.2.8.RELEASE]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:143) ~[spring-boot-2.3.3.RELEASE.jar:2.3.3.RELEASE]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:758) [spring-boot-2.3.3.RELEASE.jar:2.3.3.RELEASE]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:750) [spring-boot-2.3.3.RELEASE.jar:2.3.3.RELEASE]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:397) [spring-boot-2.3.3.RELEASE.jar:2.3.3.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:315) [spring-boot-2.3.3.RELEASE.jar:2.3.3.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1237) [spring-boot-2.3.3.RELEASE.jar:2.3.3.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1226) [spring-boot-2.3.3.RELEASE.jar:2.3.3.RELEASE]
+	at com.DeptEmpUI.DeptEmpUiApplication.main(DeptEmpUiApplication.java:32) [classes/:na]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_251]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source) ~[na:1.8.0_251]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source) ~[na:1.8.0_251]
+	at java.lang.reflect.Method.invoke(Unknown Source) ~[na:1.8.0_251]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49) [spring-boot-devtools-2.3.3.RELEASE.jar:2.3.3.RELEASE]
+Caused by: java.lang.IllegalStateException: Failed to introspect annotated methods on class com.AOPLogging.aspects.Logging
+	at org.springframework.core.type.StandardAnnotationMetadata.getAnnotatedMethods(StandardAnnotationMetadata.java:162) ~[spring-core-5.2.8.RELEASE.jar:5.2.8.RELEASE]
+	at org.springframework.context.annotation.ConfigurationClassParser.retrieveBeanMethodMetadata(ConfigurationClassParser.java:402) ~[spring-context-5.2.8.RELEASE.jar:5.2.8.RELEASE]
+	at org.springframework.context.annotation.ConfigurationClassParser.doProcessConfigurationClass(ConfigurationClassParser.java:325) ~[spring-context-5.2.8.RELEASE.jar:5.2.8.RELEASE]
+	at org.springframework.context.annotation.ConfigurationClassParser.processConfigurationClass(ConfigurationClassParser.java:249) ~[spring-context-5.2.8.RELEASE.jar:5.2.8.RELEASE]
+	at org.springframework.context.annotation.ConfigurationClassParser.processImports(ConfigurationClassParser.java:599) ~[spring-context-5.2.8.RELEASE.jar:5.2.8.RELEASE]
+	... 23 common frames omitted
+Caused by: java.lang.IllegalStateException: Failed to introspect Class [com.AOPLogging.aspects.Logging] from ClassLoader [org.springframework.boot.devtools.restart.classloader.RestartClassLoader@66116ca1]
+	at org.springframework.util.ReflectionUtils.getDeclaredMethods(ReflectionUtils.java:481) ~[spring-core-5.2.8.RELEASE.jar:5.2.8.RELEASE]
+	at org.springframework.util.ReflectionUtils.getDeclaredMethods(ReflectionUtils.java:455) ~[spring-core-5.2.8.RELEASE.jar:5.2.8.RELEASE]
+	at org.springframework.core.type.StandardAnnotationMetadata.getAnnotatedMethods(StandardAnnotationMetadata.java:151) ~[spring-core-5.2.8.RELEASE.jar:5.2.8.RELEASE]
+	... 27 common frames omitted
+Caused by: java.lang.NoClassDefFoundError: ProceedingJoinPoint
+	at java.lang.Class.getDeclaredMethods0(Native Method) ~[na:1.8.0_251]
+	at java.lang.Class.privateGetDeclaredMethods(Unknown Source) ~[na:1.8.0_251]
+	at java.lang.Class.getDeclaredMethods(Unknown Source) ~[na:1.8.0_251]
+	at org.springframework.util.ReflectionUtils.getDeclaredMethods(ReflectionUtils.java:463) ~[spring-core-5.2.8.RELEASE.jar:5.2.8.RELEASE]
+	... 29 common frames omitted
+Caused by: java.lang.ClassNotFoundException: ProceedingJoinPoint
+	at java.net.URLClassLoader.findClass(Unknown Source) ~[na:1.8.0_251]
+	at java.lang.ClassLoader.loadClass(Unknown Source) ~[na:1.8.0_251]
+	at sun.misc.Launcher$AppClassLoader.loadClass(Unknown Source) ~[na:1.8.0_251]
+	at java.lang.ClassLoader.loadClass(Unknown Source) ~[na:1.8.0_251]
+	at java.lang.Class.forName0(Native Method) ~[na:1.8.0_251]
+	at java.lang.Class.forName(Unknown Source) ~[na:1.8.0_251]
+	at org.springframework.boot.devtools.restart.classloader.RestartClassLoader.loadClass(RestartClassLoader.java:144) ~[spring-boot-devtools-2.3.3.RELEASE.jar:2.3.3.RELEASE]
+	at java.lang.ClassLoader.loadClass(Unknown Source) ~[na:1.8.0_251]
+	... 33 common frames omitted
+
+2020-09-16 11:37:29.220  WARN 10176 --- [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanDefinitionStoreException: Failed to process import candidates for configuration class [com.DeptEmpUI.DeptEmpUiApplication]; nested exception is java.lang.IllegalStateException: Failed to introspect annotated methods on class com.AOPLogging.aspects.Logging
+2020-09-16 11:37:29.236 ERROR 10176 --- [restartedMain] o.s.boot.SpringApplication               : Application run failed
+
+org.springframework.beans.factory.BeanDefinitionStoreException: Failed to process import candidates for configuration class [com.DeptEmpUI.DeptEmpUiApplication]; nested exception is java.lang.IllegalStateException: Failed to introspect annotated methods on class com.AOPLogging.aspects.Logging
+	at org.springframework.context.annotation.ConfigurationClassParser.processImports(ConfigurationClassParser.java:609) ~[spring-context-5.2.8.RELEASE.jar:5.2.8.RELEASE]
+	at org.springframework.context.annotation.ConfigurationClassParser.doProcessConfigurationClass(ConfigurationClassParser.java:310) ~[spring-context-5.2.8.RELEASE.jar:5.2.8.RELEASE]
+	at org.springframework.context.annotation.ConfigurationClassParser.processConfigurationClass(ConfigurationClassParser.java:249) ~[spring-context-5.2.8.RELEASE.jar:5.2.8.RELEASE]
+	at org.springframework.context.annotation.ConfigurationClassParser.parse(ConfigurationClassParser.java:206) ~[spring-context-5.2.8.RELEASE.jar:5.2.8.RELEASE]
+	at org.springframework.context.annotation.ConfigurationClassParser.parse(ConfigurationClassParser.java:174) ~[spring-context-5.2.8.RELEASE.jar:5.2.8.RELEASE]
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.processConfigBeanDefinitions(ConfigurationClassPostProcessor.java:319) ~[spring-context-5.2.8.RELEASE.jar:5.2.8.RELEASE]
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.postProcessBeanDefinitionRegistry(ConfigurationClassPostProcessor.java:236) ~[spring-context-5.2.8.RELEASE.jar:5.2.8.RELEASE]
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanDefinitionRegistryPostProcessors(PostProcessorRegistrationDelegate.java:280) ~[spring-context-5.2.8.RELEASE.jar:5.2.8.RELEASE]
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanFactoryPostProcessors(PostProcessorRegistrationDelegate.java:96) ~[spring-context-5.2.8.RELEASE.jar:5.2.8.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.invokeBeanFactoryPostProcessors(AbstractApplicationContext.java:707) ~[spring-context-5.2.8.RELEASE.jar:5.2.8.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:533) ~[spring-context-5.2.8.RELEASE.jar:5.2.8.RELEASE]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:143) ~[spring-boot-2.3.3.RELEASE.jar:2.3.3.RELEASE]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:758) [spring-boot-2.3.3.RELEASE.jar:2.3.3.RELEASE]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:750) [spring-boot-2.3.3.RELEASE.jar:2.3.3.RELEASE]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:397) [spring-boot-2.3.3.RELEASE.jar:2.3.3.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:315) [spring-boot-2.3.3.RELEASE.jar:2.3.3.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1237) [spring-boot-2.3.3.RELEASE.jar:2.3.3.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1226) [spring-boot-2.3.3.RELEASE.jar:2.3.3.RELEASE]
+	at com.DeptEmpUI.DeptEmpUiApplication.main(DeptEmpUiApplication.java:32) [classes/:na]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_251]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source) ~[na:1.8.0_251]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source) ~[na:1.8.0_251]
+	at java.lang.reflect.Method.invoke(Unknown Source) ~[na:1.8.0_251]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49) [spring-boot-devtools-2.3.3.RELEASE.jar:2.3.3.RELEASE]
+Caused by: java.lang.IllegalStateException: Failed to introspect annotated methods on class com.AOPLogging.aspects.Logging
+	at org.springframework.core.type.StandardAnnotationMetadata.getAnnotatedMethods(StandardAnnotationMetadata.java:162) ~[spring-core-5.2.8.RELEASE.jar:5.2.8.RELEASE]
+	at org.springframework.context.annotation.ConfigurationClassParser.retrieveBeanMethodMetadata(ConfigurationClassParser.java:402) ~[spring-context-5.2.8.RELEASE.jar:5.2.8.RELEASE]
+	at org.springframework.context.annotation.ConfigurationClassParser.doProcessConfigurationClass(ConfigurationClassParser.java:325) ~[spring-context-5.2.8.RELEASE.jar:5.2.8.RELEASE]
+	at org.springframework.context.annotation.ConfigurationClassParser.processConfigurationClass(ConfigurationClassParser.java:249) ~[spring-context-5.2.8.RELEASE.jar:5.2.8.RELEASE]
+	at org.springframework.context.annotation.ConfigurationClassParser.processImports(ConfigurationClassParser.java:599) ~[spring-context-5.2.8.RELEASE.jar:5.2.8.RELEASE]
+	... 23 common frames omitted
+Caused by: java.lang.IllegalStateException: Failed to introspect Class [com.AOPLogging.aspects.Logging] from ClassLoader [org.springframework.boot.devtools.restart.classloader.RestartClassLoader@30f9d151]
+	at org.springframework.util.ReflectionUtils.getDeclaredMethods(ReflectionUtils.java:481) ~[spring-core-5.2.8.RELEASE.jar:5.2.8.RELEASE]
+	at org.springframework.util.ReflectionUtils.getDeclaredMethods(ReflectionUtils.java:455) ~[spring-core-5.2.8.RELEASE.jar:5.2.8.RELEASE]
+	at org.springframework.core.type.StandardAnnotationMetadata.getAnnotatedMethods(StandardAnnotationMetadata.java:151) ~[spring-core-5.2.8.RELEASE.jar:5.2.8.RELEASE]
+	... 27 common frames omitted
+Caused by: java.lang.NoClassDefFoundError: ProceedingJoinPoint
+	at java.lang.Class.getDeclaredMethods0(Native Method) ~[na:1.8.0_251]
+	at java.lang.Class.privateGetDeclaredMethods(Unknown Source) ~[na:1.8.0_251]
+	at java.lang.Class.getDeclaredMethods(Unknown Source) ~[na:1.8.0_251]
+	at org.springframework.util.ReflectionUtils.getDeclaredMethods(ReflectionUtils.java:463) ~[spring-core-5.2.8.RELEASE.jar:5.2.8.RELEASE]
+	... 29 common frames omitted
+Caused by: java.lang.ClassNotFoundException: ProceedingJoinPoint
+	at java.net.URLClassLoader.findClass(Unknown Source) ~[na:1.8.0_251]
+	at java.lang.ClassLoader.loadClass(Unknown Source) ~[na:1.8.0_251]
+	at sun.misc.Launcher$AppClassLoader.loadClass(Unknown Source) ~[na:1.8.0_251]
+	at java.lang.ClassLoader.loadClass(Unknown Source) ~[na:1.8.0_251]
+	at java.lang.Class.forName0(Native Method) ~[na:1.8.0_251]
+	at java.lang.Class.forName(Unknown Source) ~[na:1.8.0_251]
+	at org.springframework.boot.devtools.restart.classloader.RestartClassLoader.loadClass(RestartClassLoader.java:144) ~[spring-boot-devtools-2.3.3.RELEASE.jar:2.3.3.RELEASE]
+	at java.lang.ClassLoader.loadClass(Unknown Source) ~[na:1.8.0_251]
+	... 33 common frames omitted
+
+2020-09-16 11:54:22.784  INFO 10176 --- [restartedMain] com.DeptEmpUI.DeptEmpUiApplication       : No active profile set, falling back to default profiles: default
+2020-09-16 11:55:59.106  INFO 10176 --- [restartedMain] o.s.cloud.context.scope.GenericScope     : BeanFactory id=df1c7ca3-99d5-3062-83bf-089d887c8072
+2020-09-16 11:56:06.527  INFO 10176 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$b307e22a] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-09-16 11:57:10.761  INFO 10176 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8085 (http)
+2020-09-16 11:57:12.111  INFO 10176 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-09-16 11:57:12.224  INFO 10176 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.37]
+2020-09-16 11:57:36.767  INFO 10176 --- [restartedMain] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2020-09-16 11:57:37.055  INFO 10176 --- [restartedMain] o.a.c.c.C.[Tomcat-2].[localhost].[/]     : Initializing Spring embedded WebApplicationContext
+2020-09-16 11:57:37.056  INFO 10176 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 184065 ms
+2020-09-16 11:58:00.241  WARN 10176 --- [restartedMain] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2020-09-16 11:58:00.242  INFO 10176 --- [restartedMain] c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-09-16 11:58:11.135  INFO 10176 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-09-16 11:58:20.692  WARN 10176 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : Unable to start LiveReload server
+2020-09-16 11:58:27.700  INFO 10176 --- [restartedMain] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2020-09-16 11:58:29.299  INFO 10176 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+2020-09-16 11:58:31.307  INFO 10176 --- [restartedMain] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON encoding codec LegacyJacksonJson
+2020-09-16 11:58:31.308  INFO 10176 --- [restartedMain] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON decoding codec LegacyJacksonJson
+2020-09-16 11:58:31.404  INFO 10176 --- [restartedMain] c.n.d.provider.DiscoveryJerseyProvider   : Using XML encoding codec XStreamXml
+2020-09-16 11:58:31.406  INFO 10176 --- [restartedMain] c.n.d.provider.DiscoveryJerseyProvider   : Using XML decoding codec XStreamXml
+2020-09-16 11:58:36.168  INFO 10176 --- [restartedMain] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2020-09-16 11:58:36.957  INFO 10176 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2020-09-16 11:58:36.957  INFO 10176 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2020-09-16 11:58:36.958  INFO 10176 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2020-09-16 11:58:36.958  INFO 10176 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Application is null : false
+2020-09-16 11:58:36.958  INFO 10176 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2020-09-16 11:58:36.959  INFO 10176 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Application version is -1: true
+2020-09-16 11:58:36.959  INFO 10176 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2020-09-16 11:58:42.830  INFO 10176 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : The response status is 200
+2020-09-16 11:58:42.832  INFO 10176 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Starting heartbeat executor: renew interval is: 30
+2020-09-16 11:58:43.058  INFO 10176 --- [restartedMain] c.n.discovery.InstanceInfoReplicator     : InstanceInfoReplicator onDemand update allowed rate per min is 4
+2020-09-16 11:58:44.321  INFO 10176 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1600237724246 with initial instances count: 2
+2020-09-16 11:58:44.665  INFO 10176 --- [restartedMain] o.s.c.n.e.s.EurekaServiceRegistry        : Registering application UI-SERVICE with eureka with status UP
+2020-09-16 11:58:44.687  INFO 10176 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1600237724687, current=UP, previous=STARTING]
+2020-09-16 11:58:44.712  INFO 10176 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_UI-SERVICE/DELL-PC:UI-service:8085: registering service...
+2020-09-16 11:58:46.239  INFO 10176 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8085 (http) with context path ''
+2020-09-16 11:58:46.297  INFO 10176 --- [restartedMain] .s.c.n.e.s.EurekaAutoServiceRegistration : Updating port to 8085
+2020-09-16 11:58:46.583  INFO 10176 --- [restartedMain] com.DeptEmpUI.DeptEmpUiApplication       : Started DeptEmpUiApplication in 488.001 seconds (JVM running for 5669.005)
+2020-09-16 11:58:46.961  INFO 10176 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2020-09-16 11:58:53.882  INFO 10176 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_UI-SERVICE/DELL-PC:UI-service:8085 - registration status: 204
+2020-09-16 12:03:37.310  INFO 10176 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2020-09-16 12:08:37.954  INFO 10176 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2020-09-16 12:13:37.976  INFO 10176 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2020-09-16 12:18:37.978  INFO 10176 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2020-09-16 12:23:37.980  INFO 10176 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2020-09-16 12:28:38.040  INFO 10176 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
